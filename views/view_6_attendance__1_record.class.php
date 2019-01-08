@@ -370,7 +370,7 @@ class View_Attendance__Record extends View
 			</tbody>
 		</table>
 		<input type="submit" class="btn" value="Save All Attendances" />
-		<a href="<?php echo $cancelURL; ?>" class="btn">Cancel</a>
+		<a href="<?php echo $cancelURL; ?>" class="btn"><?php echo _('Cancel') ?></a>
 		<?php
 
 
@@ -422,7 +422,7 @@ class View_Attendance__Record extends View
 						</p>
 						<p class="span6 align-right nowrap">
 							<input type="submit" class="btn" value="Save All Attendances" />
-							<a href="<?php echo $cancelURL; ?>" class="btn">Cancel</a>
+							<a href="<?php echo $cancelURL; ?>" class="btn"><?php echo _('Cancel') ?></a>
 						</p>
 					</div>
 					<?php

@@ -67,7 +67,7 @@ class View__Add_Person_To_Family extends View
 			}
 			?>
 			<button type="submit" class="btn"><?php echo _('Add Family Member')?></button>
-			<a href="<?php echo build_url(Array('view' => 'families')); ?>" class="btn">Cancel</a>
+			<a href="<?php echo build_url(Array('view' => 'families')); ?>" class="btn"><?php echo _('Cancel') ?></a>
 		</form>
 		<?php
 	}

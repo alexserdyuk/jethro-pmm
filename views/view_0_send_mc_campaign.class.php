@@ -153,7 +153,7 @@ class View__Send_MC_Campaign extends View
 		}
 		$templates = $this->_mc->get('/templates', Array('count' => 100));
 		$defaultTemplateID = NULL;
-		$templateOptions = Array('' => '(None)');
+		$templateOptions = Array('' => _('(None)'));
 		foreach ($templates['templates'] as $t) {
 			$templateOptions[$t['id']] = $t['name'];
 		}
@@ -218,7 +218,7 @@ class View__Send_MC_Campaign extends View
 			<div class="control-group">
 				<div class="controls">
 					<button class="btn confirm-title" title="send this campaign"  type="submit">Send</button>
-					<a class="btn" href="?view=persons__reports">Cancel</a>
+					<a class="btn" href="?view=persons__reports"><?php echo _('Cancel') ?></a>
 				</div>
 			</div>
 

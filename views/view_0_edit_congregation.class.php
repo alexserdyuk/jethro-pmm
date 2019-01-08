@@ -86,7 +86,7 @@ class View__Edit_Congregation extends View
 				<?php $this->_congregation->printForm(); ?>
 				<div class="controls">
 					<button type="submit" class="btn"><?php echo _('Update Congregation')?></button>
-					<a href="?view=admin__congregations" class="btn">Cancel</a>
+					<a href="?view=admin__congregations" class="btn"><?php echo _('Cancel') ?></a>
 				</div>
 			</form>
 

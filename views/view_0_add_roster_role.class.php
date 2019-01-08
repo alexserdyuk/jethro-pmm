@@ -39,7 +39,7 @@ class View__Add_Roster_Role extends View
 			?>
 			<div class="controls">
 				<button type="submit" class="btn">Add Role</button>
-				<button type="button" class="btn back">Cancel</button>
+				<button type="button" class="btn back"><?php echo _('Cancel') ?></button>
 			</div>
 		</form>
 		<?php

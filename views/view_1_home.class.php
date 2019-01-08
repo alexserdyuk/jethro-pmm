@@ -25,7 +25,7 @@ class View_Home extends View
 				   href="javascript:if (sp = prompt('Search <?php echo SYSTEM_NAME; ?> for: ')) window.location='<?php echo BASE_URL; ?>?view=_mixed_search&search='+sp"
 				   onclick="prompt('To create a search-jethro button in your browser, save the following code as a bookmark/favourite: ', this.href); return false"
 				>
-					<i class="icon-bookmark"></i><small class="hidden-phone">Bookmark</small>
+					<i class="icon-bookmark"></i><small class="hidden-phone"><?php echo _('Bookmark');?></small>
 				</a>
 				<?php echo _('System-Wide Search');?></h3>
 			<label class="msie-only">Enter a person, family or group name, or phone number or email:</label>
@@ -34,7 +34,7 @@ class View_Home extends View
 				<span class="input-prepend input-append">
 					<span class="add-on"><i class="icon-search"></i></span>
 					<input type="text" name="search" class="" placeholder=<?php echo _('"Name, Phone or Email"');?> />
-					<button type="submit" class="btn">Go</button>
+					<button type="submit" class="btn"><?php echo _('Go') ?></button>
 				</span>
 			</form>
 		</div>
@@ -78,7 +78,7 @@ class View_Home extends View
 					<?php
 				} else {
 					?>
-					<p><i>None</i></p>
+					<p><i><?php echo _('None');?></i></p>
 					<?php
 				}
 				$later = $user->getTasks('later');
@@ -97,8 +97,8 @@ class View_Home extends View
 			?>
 			<div class="homepage-box my-roster">
 				<h3>
-					<a href="?view=_manage_ical" class="pull-right"><i class="icon-bookmark"></i><small class="hidden-phone">Subscribe</small></a>
-					Upcoming roster
+					<a href="?view=_manage_ical" class="pull-right"><i class="icon-bookmark"></i><small class="hidden-phone"><?php echo _('Subscribe');?></small></a>
+					<?php echo _('Upcoming roster');?>
 				</h3>
 				<?php
 				$GLOBALS['system']->includeDBClass('roster_role_assignment');
@@ -117,7 +117,7 @@ class View_Home extends View
 					<?php
 				} else {
 					?>
-					<p><i>None</i></p>
+					<p><i><?php echo _('None');?></i></p>
 					<?php
 				}
 				?>

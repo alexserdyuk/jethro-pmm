@@ -21,9 +21,9 @@ class View_Rosters__Edit_Roster_Assignments extends View_Rosters__Display_Roster
 	function getTitle()
 	{
 		if ($this->_view) {
-			return 'Edit Roster Assignments for "'.$this->_view->getValue('name').'"';
+			return _('Edit Roster Assignments for "').$this->_view->getValue('name').'"';
 		} else {
-			return 'Edit Roster Assignments';
+			return _('Edit Roster Assignments');
 		}
 	}
 

@@ -41,7 +41,7 @@ class View_Services__Component_Library extends View
 				'type' => 'select',
 				'options' => $options,
 			), array_get($_REQUEST, 'congregationid')); ?>
-			<button type="submit" class="btn">Go</button>
+			<button type="submit" class="btn"><?php echo _('Go') ?></button>
 			<a href="?view=<?php echo ents($_REQUEST['view']); ?>" class="btn">Clear</a>
 		</form>
 

@@ -123,7 +123,7 @@ class View_Admin__Note_Templates extends View
 			?>
 			<div class="controls">
 				<input class="btn" type="submit" value="Save">
-				<a href="?view=admin__note_templates" class="btn">Cancel</a>
+				<a href="?view=admin__note_templates" class="btn"><?php echo _('Cancel') ?></a>
 			</div>
 		</form>
 		<?php

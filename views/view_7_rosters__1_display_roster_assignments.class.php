@@ -76,7 +76,7 @@ class View_Rosters__Display_Roster_Assignments extends View
 					<th class="right">and</th>
 					<td>
 						<?php print_widget('end_date', Array('type' => 'date'), $this->_end_date); ?> &nbsp; 
-						<button type="submit" class="btn">Go</button>
+						<button type="submit" class="btn"><?php echo _('Go') ?></button>
 					</td>
 				</tr>
 			</table>

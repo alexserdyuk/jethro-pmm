@@ -212,7 +212,7 @@ class View_Families__Add extends View
 												'type' => 'select',
 												'options' => $group_options,
 												'allow_empty' => TRUE,
-												'empty_text' => '(None)'
+												'empty_text' => _('(None)')
 											);
 							?>
 							<label><?php echo _('Group (optional)');?></label>

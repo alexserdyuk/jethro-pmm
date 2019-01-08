@@ -146,7 +146,7 @@ class Staff_Member extends Person
 								echo ents($cong['name']).'<br />';
 							}
 						} else {
-							echo '(None)';
+							echo _('(None)');
 						}
 						?>
 					</td>
@@ -157,7 +157,7 @@ class Staff_Member extends Person
 								echo ents($group['name']).'<br />';
 							}
 						} else {
-							echo '(None)';
+							echo _('(None)');
 						}
 						?>
 					</td>

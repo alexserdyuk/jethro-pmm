@@ -86,7 +86,7 @@ $groupid = array_get($_REQUEST, 'groupid', array_get($_REQUEST, 'person_groupid'
 				'type' => 'select',
 				'allow_empty' => TRUE,
 				'empty_text' => '(No change)',
-				'options' => Array(0 => '(None)'),
+				'options' => Array(0 => _('(None)')),
 			);
 			foreach ($GLOBALS['system']->getDBObjectdata('congregation', Array()) as $cid => $cong) {
 				$params['options'][$cid] = $cong['name'];
@@ -96,7 +96,7 @@ $groupid = array_get($_REQUEST, 'groupid', array_get($_REQUEST, 'person_groupid'
 			echo '</td></tr>';
 
 
-			$dummy->fields['congregationid']['options'][0] = '(None)';
+			$dummy->fields['congregationid']['options'][0] = _('(None)');
 			$customFields = $GLOBALS['system']->getDBObjectData('custom_field', Array(), 'OR', 'rank');
 			$dummy = new Custom_Field();
 			$addParams = Array(

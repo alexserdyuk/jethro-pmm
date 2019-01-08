@@ -32,7 +32,7 @@ class View_Groups__Add extends Abstract_View_Add_Object
 			<div class="controls">
 				<input class="btn" type="submit" value="<?php echo _('Save and view group');?>" />
 				<input class="btn" name="create_another" type="submit" value="<?php echo _('Save group and create another');?>" />
-				<a href="<?php echo build_url(Array('view' => 'groups__list_all')); ?>" class="btn">Cancel</a>
+				<a href="<?php echo build_url(Array('view' => 'groups__list_all')); ?>" class="btn"><?php echo _('Cancel') ?></a>
 			</div>
 		</form>
 		<?php

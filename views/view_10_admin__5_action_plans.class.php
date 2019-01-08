@@ -66,7 +66,7 @@ class View_Admin__Action_Plans extends View
 					$this->_plan->printForm();
 					?>
 					<input class="btn" type="submit" value="Save Action Plan" />
-					<a class="btn" href="<?php echo build_url(Array('planid' => NULL)); ?>">Cancel</a>
+					<a class="btn" href="<?php echo build_url(Array('planid' => NULL)); ?>"><?php echo _('Cancel') ?></a>
 				</form>
 				<?php
 			} else {

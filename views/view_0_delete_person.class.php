@@ -131,7 +131,7 @@ class View__Delete_Person extends View
 			<?php
 		}
 		?>
-		<button type="button" class="btn back">Cancel</button>
+		<button type="button" class="btn back"><?php echo _('Cancel') ?></button>
 
 		</form>
 		<?php

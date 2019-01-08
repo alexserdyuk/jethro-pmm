@@ -675,7 +675,7 @@ class roster_view extends db_object
 				</div>
 				<div class="modal-footer">
 					<button class="btn" data-dismiss="modal" id="choose-assignee-save">Save</button>
-					<button class="btn" data-dismiss="modal"id="choose-assignee-cancel">Cancel</button>
+					<button class="btn" data-dismiss="modal"id="choose-assignee-cancel"><?php echo _('Cancel') ?></button>
 				</div>
 			</div>
 			<?php

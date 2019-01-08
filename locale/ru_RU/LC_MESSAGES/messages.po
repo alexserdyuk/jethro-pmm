@@ -1,0 +1,2180 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Jethro\n"
+"POT-Creation-Date: 2018-10-13 00:31+0300\n"
+"PO-Revision-Date: 2018-10-13 00:33+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: resources\n"
+"X-Poedit-SearchPathExcluded-1: upgrades\n"
+"X-Poedit-SearchPathExcluded-2: docs\n"
+"X-Poedit-SearchPathExcluded-3: files\n"
+
+#: db_objects/attendance_record_set.class.php:395
+#: views/view_6_attendance__2_display.class.php:248
+#: views/view_6_attendance__2_display.class.php:504
+msgid "Total Headcount"
+msgstr "Общая численность"
+
+#: db_objects/custom_field.class.php:341
+msgid "Allow \"other\""
+msgstr "Позволить \"Другое\""
+
+#: db_objects/custom_field.class.php:485
+msgid "Other"
+msgstr "Другое"
+
+#: db_objects/family.class.php:580 db_objects/person.class.php:981
+#: db_objects/person.class.php:982
+msgid "Removed"
+msgstr "Удалено"
+
+#: db_objects/person.class.php:247
+msgid "SMS via Jethro"
+msgstr "CMC через Иофор"
+
+#: db_objects/person.class.php:257
+msgid "SMS via iMessage"
+msgstr "СМС через iMessage"
+
+#: db_objects/person_group.class.php:20 views/view_5_groups.class.php:45
+msgid "Category"
+msgstr "Категория"
+
+#: db_objects/person_group.class.php:27
+#: views/view_10_admin__2_user_accounts.class.php:41
+msgid "Active"
+msgstr "Активно"
+
+#: db_objects/person_group.class.php:28
+msgid "Archived"
+msgstr "Архивная запись"
+
+#: db_objects/person_group.class.php:30
+#: templates/person_list_header_footer.template.php:11
+#: views/view_2_families__3_add.class.php:202
+#: views/view_2_families__3_add.class.php:262 views/view_5_groups.class.php:60
+#: views/view_5_groups.class.php:229
+#: views/view_6_attendance__1_record.class.php:290
+#: views/view_6_attendance__2_display.class.php:389
+msgid "Status"
+msgstr "Статус"
+
+#: db_objects/person_group.class.php:36 views/view_5_groups.class.php:78
+msgid "Visibility"
+msgstr "Видимость"
+
+#: db_objects/person_group.class.php:43 db_objects/person_group.class.php:54
+msgid "Yes"
+msgstr "Да"
+
+#: db_objects/person_group.class.php:44 db_objects/person_group.class.php:55
+#: db_objects/person_group.class.php:307
+msgid "No"
+msgstr "Нет"
+
+#: db_objects/person_group.class.php:47 views/view_5_groups.class.php:80
+msgid "Show on add-family page?"
+msgstr "Показывать на странице создания семьи?"
+
+#: db_objects/person_group.class.php:48
+msgid ""
+"Should this group be shown as an option when <a href=\"?view=families__add"
+"\">adding a new family</a>?"
+msgstr ""
+"Должна ли эта группа отображаться как опция на экране <a href=\"?"
+"view=families__add\">создание новой семьи</a>?"
+
+#: db_objects/person_group.class.php:58
+msgid ""
+"Should members of this group be able to see each others's details in <a href="
+"\""
+msgstr "Должны члены этой группы видеть сведения друг о друге в <a href=\""
+
+#: db_objects/person_group.class.php:58
+msgid "members\">member portal</a>?"
+msgstr "members\">портале для членов</a>?"
+
+#: db_objects/person_group.class.php:59
+msgid "Share member details?"
+msgstr "Поделиться сведениями о члене?"
+
+#: db_objects/person_group.class.php:68
+msgid "Sunday"
+msgstr "Воскресенье"
+
+#: db_objects/person_group.class.php:69
+msgid "Monday"
+msgstr "Понедельник"
+
+#: db_objects/person_group.class.php:70
+msgid "Tuesday"
+msgstr "Вторник"
+
+#: db_objects/person_group.class.php:71
+msgid "Wednesday"
+msgstr "Среда"
+
+#: db_objects/person_group.class.php:72
+msgid "Thursday"
+msgstr "Четверг"
+
+#: db_objects/person_group.class.php:73
+msgid "Friday"
+msgstr "Пятница"
+
+#: db_objects/person_group.class.php:74
+msgid "Saturday"
+msgstr "Воскресенье"
+
+#: db_objects/person_group.class.php:77
+msgid "Attendance Recording Days"
+msgstr "Дни для учета посещаемости"
+
+#: db_objects/person_group.class.php:79
+msgid ""
+"If you want to record attendance at this group, select the applicable "
+"weekdays. "
+msgstr ""
+"Если вы хотите записывать посещаемость этой групп, выберите нужные дни "
+"недели. "
+
+#: db_objects/person_group.class.php:311
+msgid "Yes, any day"
+msgstr "Да, в любой день"
+
+#: db_objects/person_group.class.php:317
+#: views/view_3_persons__3_reports.class.php:177
+msgid "Everyone"
+msgstr "Все"
+
+#: db_objects/person_group_category.class.php:60
+#: db_objects/roster_role.class.php:76 db_objects/staff_member.class.php:149
+#: db_objects/staff_member.class.php:160 include/general.php:343
+#: templates/bulk_actions.template.php:89
+#: templates/bulk_actions.template.php:99
+#: views/view_0_send_mc_campaign.class.php:156
+#: views/view_2_families__3_add.class.php:215
+msgid "(None)"
+msgstr "(Нет)"
+
+#: db_objects/person_query.class.php:124
+msgid "Optional"
+msgstr "Необязательно"
+
+#: db_objects/person_query.class.php:125
+msgid ""
+"If you have a MailChimp list you would like to synchronise with the results "
+"of this report, enter the relevant List ID here and wait until the sync "
+"script runs."
+msgstr ""
+"Если у вас есть список рассылки MailChimp, который вы хотите "
+"синхронизировать с результатами этого отчета, введите здесь List ID и "
+"подождите, пока выполнится скрипт синхронизации."
+
+#: db_objects/person_query.class.php:521
+msgid "Nothing - one big group"
+msgstr "Ничего - одна большая группа"
+
+#: db_objects/person_query.class.php:522
+msgid "Which person groups they are in"
+msgstr "В какие группы людей они включены"
+
+#: db_objects/roster_view.class.php:678
+#: members/views/view_0_change_password.class.php:27
+#: members/views/view_0_edit_me.class.php:87
+#: templates/list_notes_assorted.template.php:74
+#: templates/view_person.template.php:21 templates/view_person.template.php:56
+#: views/abstract_view_add_object.class.php:57
+#: views/abstract_view_edit_object.class.php:109
+#: views/view_0_add_note_to_family.class.php:55
+#: views/view_0_add_note_to_person.class.php:95
+#: views/view_0_add_person_to_family.class.php:70
+#: views/view_0_add_roster_role.class.php:42
+#: views/view_0_add_service_component.class.php:51
+#: views/view_0_delete_person.class.php:134
+#: views/view_0_edit_attendance.class.php:78
+#: views/view_0_edit_congregation.class.php:89
+#: views/view_0_edit_user_account.class.php:71
+#: views/view_0_generate_service_documents.class.php:259
+#: views/view_0_move_person_to_family.class.php:134
+#: views/view_0_send_mc_campaign.class.php:221
+#: views/view_10_admin__4_note_templates.class.php:126
+#: views/view_10_admin__5_action_plans.class.php:69
+#: views/view_2_families__3_add.class.php:321 views/view_5_groups.class.php:305
+#: views/view_5_groups__3_add.class.php:35
+#: views/view_6_attendance__1_record.class.php:373
+#: views/view_6_attendance__1_record.class.php:425
+#: views/view_9_documents.class.php:188 views/view_9_documents.class.php:203
+#: views/view_9_documents.class.php:219 views/view_9_documents.class.php:235
+#: views/view_9_documents.class.php:250 views/view_9_documents.class.php:268
+#: views/view_9_documents.class.php:359
+msgid "Cancel"
+msgstr "Отмена"
+
+#: include/system_controller.class.php:299
+msgid "An error occurred. Please contact your system administrator for help."
+msgstr ""
+"Произошла ошибка. Пожалуйста, обратитесь к вашему системному администратору "
+"за помощью."
+
+#: members/views/view_1_home.class.php:56 views/view_1_home.class.php:100
+msgid "Subscribe"
+msgstr "Подписаться"
+
+#: members/views/view_1_home.class.php:85 views/view_1_home.class.php:81
+#: views/view_1_home.class.php:120
+msgid "None"
+msgstr "Нет"
+
+#: scripts/task_reminder.php:33
+#, php-format
+msgid "Hi %s,"
+msgstr "Привет %s,"
+
+#: scripts/task_reminder.php:35
+#, php-format
+msgid "%d new notes were recently assigned to you for action"
+msgstr "%d новых заметок недавно назначили вам для исполнения"
+
+#: scripts/task_reminder.php:36
+msgid "A new note was recently assigned to you for action"
+msgstr "Новая заметка была недавно назначена вам для исполнения"
+
+#: scripts/task_reminder.php:37
+#, php-format
+msgid "There are %d notes assigned to you in total"
+msgstr "Всего у вас %d назначенных заметок"
+
+#: scripts/task_reminder.php:39
+#, php-format
+msgid "Please log in at %s to view your notes"
+msgstr "Пожалуйста, войдите в %s, чтобы видеть ваши заметки"
+
+#: scripts/task_reminder.php:40
+#, php-format
+msgid ""
+"--\n"
+"This email was sent automatically by the %s Jethro system"
+msgstr ""
+"--\n"
+"Это письмо было отправлено автоматически от %s системой Иофор"
+
+#: templates/bulk_actions.template.php:7
+msgid "With selected persons:"
+msgstr "С выбранными людьми:"
+
+#: templates/bulk_actions.template.php:9
+msgid "-- Choose Action --"
+msgstr "-- Выберите действие --"
+
+#: templates/bulk_actions.template.php:14
+msgid "Remove from this group"
+msgstr "Удалить из группы"
+
+#: templates/bulk_actions.template.php:15
+msgid "Move to a different group"
+msgstr "Переместить в другую группу"
+
+#: templates/bulk_actions.template.php:16
+msgid "Add to another group"
+msgstr "Добавить в другую группу"
+
+#: templates/bulk_actions.template.php:20
+#: templates/view_person.template.php:254
+msgid "Add to a group"
+msgstr "Добавить в группу"
+
+#: templates/bulk_actions.template.php:24
+msgid "Set field(s)"
+msgstr "Установить поле(я)"
+
+#: templates/bulk_actions.template.php:29
+msgid "Add note"
+msgstr "Добавить заметку"
+
+#: templates/bulk_actions.template.php:33
+msgid "Send email"
+msgstr "Отправить письмо"
+
+#: templates/bulk_actions.template.php:37
+msgid "Send SMS"
+msgstr "Отправить SMS"
+
+#: templates/bulk_actions.template.php:41
+msgid "Print envelopes"
+msgstr "Напечатать конверты"
+
+#: templates/bulk_actions.template.php:42
+msgid "Export as CSV"
+msgstr "Экспортировать в CSV"
+
+#: templates/bulk_actions.template.php:43
+msgid "Export as vCard"
+msgstr "Экспортировать в vCard"
+
+#: templates/bulk_actions.template.php:47
+msgid "Mail merge a document"
+msgstr "Создать \"именной\" документ (mail merge)"
+
+#: templates/bulk_actions.template.php:54
+msgid "Execute an action plan"
+msgstr "Выполнить план действий"
+
+#: templates/bulk_actions.template.php:131
+msgid "Move selected persons to "
+msgstr "Переместить выбранных людей в "
+
+#: templates/bulk_actions.template.php:134
+msgid "Add selected persons as "
+msgstr "Добавить выбранных людей как "
+
+#: templates/bulk_actions.template.php:146
+msgid "an existing group:"
+msgstr "в существующую группу:"
+
+#: templates/bulk_actions.template.php:166
+msgid "a new group:"
+msgstr "в новую группу:"
+
+#: templates/bulk_actions.template.php:170
+msgid "New group name: "
+msgstr "Имя новой группы: "
+
+#: templates/bulk_actions.template.php:223
+msgid "Source Document"
+msgstr "Исходный документ"
+
+#: templates/bulk_actions.template.php:230
+msgid "Merge for"
+msgstr "\"Персонализировать\" для"
+
+#: templates/bulk_actions.template.php:234
+msgid "each of the selected persons"
+msgstr "каждого из выбранных людей"
+
+#: templates/bulk_actions.template.php:236
+msgid "(Sample file: "
+msgstr "(Файл для примера: "
+
+#: templates/bulk_actions.template.php:243
+msgid "each of the families that the selected persons belong to"
+msgstr "каждая из семей, к которым принадлежит выбранный человек"
+
+#: templates/bulk_actions.template.php:264
+msgid "Send an email to"
+msgstr "Отправить письмо"
+
+#: templates/bulk_actions.template.php:265
+#: templates/bulk_actions.template.php:279
+#: templates/bulk_actions.template.php:322
+msgid "the selected persons"
+msgstr "выбранным людям"
+
+#: templates/bulk_actions.template.php:266
+msgid "the adults in the selected persons&#8217; families"
+msgstr "взрослые в семьях выбранных людей"
+
+#: templates/bulk_actions.template.php:267
+msgid "Allow recipients to see each other&#8217;s email addresses"
+msgstr "Позволить получателям видеть email-адреса друг друга"
+
+#: templates/bulk_actions.template.php:275
+msgid "To:"
+msgstr "Кому:"
+
+#: templates/bulk_actions.template.php:283
+msgid "the adults in the selected persons families"
+msgstr "взрослые в семьях выбранных людей"
+
+#: templates/bulk_actions.template.php:323
+msgid "the families the selected persons belong to"
+msgstr "семьи, в которые входят выбранные люди"
+
+#: templates/bulk_actions.template.php:328
+msgid "Print envelopes addressed to "
+msgstr "Печатать конверты, адресованные "
+
+#: templates/bulk_actions.template.php:331
+msgid ""
+"the selected persons themselves, grouped by family (eg &#8220;John, Joanne "
+"&amp; James Smith&#8221;)"
+msgstr ""
+"выбранные люди непосредственно, сгруппированные по семьям (например, &#8220;"
+"Иван, Татьяна и Петр Тарасенко&#8221;)"
+
+#: templates/bulk_actions.template.php:335
+msgid ""
+"the families the selected persons belong to (eg &#8220;Jones Family&#8221;)"
+msgstr ""
+"семьи, в которые входят выбранные люди (например &#8220;Тарасенко - "
+"семья&#8221;)"
+
+#: templates/bulk_actions.template.php:339
+msgid ""
+"adult members of the selected persons&#8217; families (eg &#8220;Bert and "
+"Marjorie Citizen&#8221;)"
+msgstr ""
+"взрослые члены семей выбранных людей (например, &#8220;Андрей и Мария Коваль "
+"&#8221;)"
+
+#: templates/bulk_actions.template.php:348
+#: views/view_0_add_person_to_family.class.php:65
+#: views/view_2_families__3_add.class.php:313
+msgid "Reference date for plans:"
+msgstr "Контрольная дата для планов:"
+
+#: templates/family_list.template.php:5
+#: views/view_2_families__3_add.class.php:174
+msgid "Family Name"
+msgstr "Фамилия"
+
+#: templates/family_list.template.php:6
+#: views/view_2_families__3_add.class.php:180
+msgid "Family Members"
+msgstr "Члены семьи"
+
+#: templates/family_list.template.php:11
+msgid "Home Phone"
+msgstr "Домашний телефон"
+
+#: templates/family_list.template.php:15
+#: templates/person_list_header_footer.template.php:28
+#: views/view_3_persons__3_reports.class.php:133
+#: views/view_6_attendance__1_record.class.php:300
+#: views/view_6_attendance__2_display.class.php:210
+msgid "Actions"
+msgstr "Действия"
+
+#: templates/family_list.template.php:35
+#: templates/list_notes_assorted.template.php:61
+#: templates/person_list.template.php:102
+#: templates/view_person.template.php:185
+#: views/view_3_persons__3_reports.class.php:156
+#: views/view_3_persons__3_reports.class.php:179
+#: views/view_5_groups.class.php:290
+#: views/view_6_attendance__1_record.class.php:348
+#: views/view_6_attendance__2_display.class.php:325
+msgid "View"
+msgstr "Просмотр"
+
+#: templates/family_list.template.php:39 templates/person_list.template.php:106
+#: templates/view_family.template.php:69 templates/view_person.template.php:153
+#: templates/view_person.template.php:189
+#: templates/view_person.template.php:355
+#: views/view_10_admin__1_congregations.class.php:63
+#: views/view_10_admin__2_user_accounts.class.php:42
+#: views/view_5_groups__1_list_all.class.php:74
+#: views/view_5_groups__4_manage_categories.class.php:61
+#: views/view_6_attendance__1_record.class.php:349
+#: views/view_6_attendance__2_display.class.php:329
+msgid "Edit"
+msgstr "Правка"
+
+#: templates/family_list.template.php:44 templates/person_list.template.php:111
+#: templates/view_person.template.php:229
+#: views/view_6_attendance__1_record.class.php:350
+#: views/view_6_attendance__2_display.class.php:334
+msgid "Add Note"
+msgstr "Добавить заметку"
+
+#: templates/list_notes_assorted.template.php:16
+msgid "ID"
+msgstr "№"
+
+#: templates/list_notes_assorted.template.php:17 views/view_1_home.class.php:55
+#: views/view_6_attendance__1_record.class.php:150
+#: views/view_6_attendance__2_display.class.php:86
+msgid "For"
+msgstr "Для"
+
+#: templates/list_notes_assorted.template.php:18 views/view_1_home.class.php:56
+msgid "Subject"
+msgstr "Тема"
+
+#: templates/list_notes_assorted.template.php:19
+msgid "Assignee"
+msgstr "Исполнитель"
+
+#: templates/list_notes_assorted.template.php:20
+msgid "Action Date"
+msgstr "Дата действия"
+
+#: templates/list_notes_assorted.template.php:52
+msgid "This note is locked by another user and cannot be edited at this time."
+msgstr ""
+"Заметка заблокирована другим пользователем и не может быть отредактирована."
+
+#: templates/list_notes_assorted.template.php:62
+msgid "Edit/Comment"
+msgstr "Правка / Комментарий"
+
+#: templates/login_form.template.php:17
+msgid "Error: Javascript is Disabled"
+msgstr "Ошибка: Javascipt отключен"
+
+#: templates/login_form.template.php:17
+msgid ""
+"For Jethro to function correctly you must enable javascript, which is done "
+"most simply by lowering the security level your browser uses for this website"
+msgstr ""
+"Для того, чтобы Иофор работал правильно, вы должны разрешить Javascript, это "
+"делается простым снижением уровня безопасности в вашем браузере"
+
+#: templates/login_form.template.php:28
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: templates/login_form.template.php:36
+msgid "Password"
+msgstr "Пароль"
+
+#: templates/main.template.php:29
+msgid "Logged in as"
+msgstr "Вы вошли как"
+
+#: templates/main.template.php:36 templates/main.template.php:66
+msgid "Edit me"
+msgstr "Редактировать себя"
+
+#: templates/main.template.php:37 templates/main.template.php:68
+msgid "Log out"
+msgstr "Выйти"
+
+#: templates/main.template.php:44
+msgid ""
+"\"This user account can only see persons in certain congregations or groups\""
+msgstr ""
+"\"Под этой учетной записью пользователя можно просматривать только людей в "
+"определенных конгрегациях или группах\""
+
+#: templates/main.template.php:44
+msgid "Restrictions in effect"
+msgstr "Активированные ограничения"
+
+#: templates/person_list_header_footer.template.php:3
+#: views/view_5_groups.class.php:224
+#: views/view_5_groups__1_list_all.class.php:50
+#: views/view_6_attendance__1_record.class.php:286
+#: views/view_6_attendance__2_display.class.php:201
+#: views/view_6_attendance__2_display.class.php:385
+msgid "Name"
+msgstr "Имя"
+
+#: templates/person_list_header_footer.template.php:12
+#: views/view_2_families__3_add.class.php:197
+#: views/view_2_families__3_add.class.php:261 views/view_5_groups.class.php:238
+msgid "Age"
+msgstr "Возраст"
+
+#: templates/person_list_header_footer.template.php:13
+#: views/view_2_families__3_add.class.php:196
+#: views/view_2_families__3_add.class.php:260 views/view_5_groups.class.php:239
+msgid "Gender"
+msgstr "Пол"
+
+#: templates/person_list_header_footer.template.php:18
+#: views/view_2_families__3_add.class.php:234
+msgid "Mobile"
+msgstr "Мобильный"
+
+#: templates/person_list_header_footer.template.php:23
+#: templates/view_person.template.php:75 templates/view_person.template.php:250
+#: views/view_6_attendance__3_statistics.class.php:100
+msgid "Groups"
+msgstr "Группы"
+
+#: templates/person_list_header_footer.template.php:29
+#: views/view_5_groups.class.php:249
+#: views/view_6_attendance__2_display.class.php:406
+msgid "\"Select all\""
+msgstr "\"Выбрать все\""
+
+#: templates/single_note.template.php:36
+msgid "Edit original note"
+msgstr "Изменить оригинальную заметку"
+
+#: templates/single_note.template.php:57
+msgid "Edited by"
+msgstr "Изменено"
+
+#: templates/single_note.template.php:95
+msgid "Edit / Comment"
+msgstr "Правка / Комментарий"
+
+#: templates/view_family.template.php:14 templates/view_person.template.php:68
+#: templates/view_person.template.php:144
+msgid "Basic Details"
+msgstr "Основные сведения"
+
+#: templates/view_family.template.php:20 templates/view_person.template.php:72
+#: templates/view_person.template.php:225
+msgid "Notes"
+msgstr "Заметки"
+
+#: templates/view_family.template.php:25 templates/view_person.template.php:88
+#: templates/view_person.template.php:319
+msgid "History"
+msgstr "История"
+
+#: templates/view_family.template.php:76 templates/view_person.template.php:194
+#: views/view_2_families__3_add.class.php:286
+msgid "Family Details"
+msgstr "Сведения о семье"
+
+#: templates/view_family.template.php:82 templates/view_person.template.php:172
+msgid "Print Envelope"
+msgstr "Печатать конверт"
+
+#: templates/view_family.template.php:93
+msgid "Add Member"
+msgstr "Добавить члена"
+
+#: templates/view_family.template.php:99
+#: views/view_10_admin__1_congregations.class.php:46
+#: views/view_5_groups__1_list_all.class.php:51
+msgid "Members"
+msgstr "Члены"
+
+#: templates/view_family.template.php:176
+msgid "Add Family Note"
+msgstr "Добавить заметку о семье"
+
+#: templates/view_family.template.php:180
+msgid "Add Person Note"
+msgstr "Добавить заметку о человеке"
+
+#: templates/view_family.template.php:197
+msgid "Family Record Created on "
+msgstr "Семейная запись создана "
+
+#: templates/view_person.template.php:13
+msgid "Execute Action Plan for "
+msgstr "Запустить план действий для "
+
+#: templates/view_person.template.php:17
+msgid "Reference date for plans: "
+msgstr "Контрольная дата для планов: "
+
+#: templates/view_person.template.php:20
+#: views/abstract_view_notes_list.class.php:84
+#: views/view_0_move_person_to_family.class.php:133
+#: views/view_1_home.class.php:37
+#: views/view_7_rosters__1_display_roster_assignments.class.php:79
+#: views/view_8_services__3_component_library.class.php:44
+#: views/view_9_documents.class.php:187 views/view_9_documents.class.php:202
+#: views/view_9_documents.class.php:218 views/view_9_documents.class.php:234
+#: views/view_9_documents.class.php:249 views/view_9_documents.class.php:267
+msgid "Go"
+msgstr "Вперед"
+
+#: templates/view_person.template.php:43
+msgid "Add "
+msgstr "Добавить "
+
+#: templates/view_person.template.php:43
+msgid " to a group"
+msgstr " в группу"
+
+#: templates/view_person.template.php:48
+msgid "Add as a "
+msgstr "Добавить как "
+
+#: templates/view_person.template.php:50
+msgid " of "
+msgstr " из "
+
+#: templates/view_person.template.php:55
+msgid "Choose a group first"
+msgstr "Сначала выберите группу"
+
+#: templates/view_person.template.php:78 templates/view_person.template.php:328
+msgid "Attendance"
+msgstr "Посещаемость"
+
+#: templates/view_person.template.php:81 templates/view_person.template.php:400
+msgid "Rosters"
+msgstr "Списки обязанностей"
+
+#: templates/view_person.template.php:159
+msgid "Person Details"
+msgstr "Личные сведения"
+
+#: templates/view_person.template.php:167
+#: views/view_10_admin__1_congregations.class.php:67
+#: views/view_3_persons__3_reports.class.php:197
+#: views/view_5_groups__1_list_all.class.php:78
+#: views/view_5_groups__4_manage_categories.class.php:63
+msgid "Delete"
+msgstr "Удалить"
+
+#: templates/view_person.template.php:177
+msgid "Execute Action Plan"
+msgstr "Запустить план действий"
+
+#: templates/view_person.template.php:234
+msgid "There are no person or family notes for "
+msgstr "Нет личных или семейных заметок о "
+
+#: templates/view_person.template.php:238
+msgid "Person and Family Notes for "
+msgstr "Личные или семейные заметки о "
+
+#: templates/view_person.template.php:260
+msgid " is not a member of any active groups"
+msgstr " не входит ни в одну из активных групп"
+
+#: templates/view_person.template.php:264
+msgid " is a member of:"
+msgstr " входит в:"
+
+#: templates/view_person.template.php:269
+msgid "Group Name"
+msgstr "Название группы"
+
+#: templates/view_person.template.php:270
+#: views/view_2_families__3_add.class.php:222
+msgid "Membership Status"
+msgstr "Cтатус членства"
+
+#: templates/view_person.template.php:274 views/view_5_groups.class.php:244
+msgid "Joined Group"
+msgstr "Связанная группа"
+
+#: templates/view_person.template.php:301
+msgid "Remove"
+msgstr "Удалить"
+
+#: templates/view_person.template.php:333
+msgid "No attendance has been recorded for "
+msgstr "Нет записей посещаемости для "
+
+#: views/abstract_view_edit_object.class.php:60
+msgid "Error"
+msgstr "Ошибка"
+
+#: views/abstract_view_edit_object.class.php:61
+msgid "Editing "
+msgstr "Редактирование "
+
+#: views/abstract_view_edit_object.class.php:75
+#: views/view_0_edit_congregation.class.php:59
+msgid ""
+"Your changes could not be saved because your lock had expired.  Try making "
+"your changes again using the form below"
+msgstr ""
+"Ваши изменения не могут быть сохранены, потому что блокировка истекла. "
+"Попробуйте снова ввести изменения в форме ниже"
+
+#: views/abstract_view_edit_object.class.php:81
+#: views/view_0_edit_user_account.class.php:46
+msgid ""
+"Your changes could not be saved because your lock has expired.  The lock has "
+"now been acquired by another user.  Wait some time for them to finish and "
+"then"
+msgstr ""
+"Ваши изменения не могут быть сохранены, потому что блокировка истекла. "
+"Другой пользователь заблокировал данные. Подождите некоторое время, чтобы он "
+"закончил, а затем"
+
+#: views/abstract_view_notes_list.class.php:25
+msgid "Assignments Saved"
+msgstr "Назначения сохранены"
+
+#: views/abstract_view_notes_list.class.php:91
+msgid "There are no notes to show"
+msgstr "Нет ни одной заметки для отображения"
+
+#: views/abstract_view_notes_list.class.php:98
+msgid "Edit the assignees for all these notes"
+msgstr "Изменить исполнителей для всех заметок"
+
+#: views/abstract_view_notes_list.class.php:104
+#, php-format
+msgid "%s notes in total"
+msgstr "%s заметок всего"
+
+#: views/view_0_add_note_to_family.class.php:25
+#: views/view_0_add_note_to_person.class.php:55
+msgid "Note added"
+msgstr "Заметка добавлена"
+
+#: views/view_0_add_note_to_family.class.php:31
+msgid "Family has only one member, so adding note to that person instead"
+msgstr ""
+"В семье только один человек, поэтому заметка будет добавлена этому человеку"
+
+#: views/view_0_add_note_to_family.class.php:49
+msgid "New Note Details"
+msgstr "Детали новой заметки"
+
+#: views/view_0_add_note_to_family.class.php:54
+msgid "Add Note to Family"
+msgstr "Добавить заметку о семье"
+
+#: views/view_0_add_note_to_person.class.php:16
+msgid "Cannot add note, no person ID specified"
+msgstr "Невозможно добавить заметку, не указан № человека"
+
+#: views/view_0_add_note_to_person.class.php:59
+msgid "Note added to "
+msgstr "Заметка добавлена к "
+
+#: views/view_0_add_note_to_person.class.php:59
+msgid " persons"
+msgstr " людям"
+
+#: views/view_0_add_note_to_person.class.php:61
+msgid "Note successfully added to "
+msgstr "Заметка успешно добавлена к "
+
+#: views/view_0_add_note_to_person.class.php:61
+msgid " of the "
+msgstr " из "
+
+#: views/view_0_add_note_to_person.class.php:61
+msgid " selected persons"
+msgstr " выбранных людей"
+
+#: views/view_0_add_note_to_person.class.php:74
+msgid "Add note to "
+msgstr "Добавить заметку к "
+
+#: views/view_0_add_note_to_person.class.php:94
+msgid "Add Note to Person"
+msgstr "Добавить заметку о человеке"
+
+#: views/view_0_add_person_to_family.class.php:56
+msgid "New Person Details"
+msgstr "Сведения о новом человеке"
+
+#: views/view_0_add_person_to_family.class.php:62
+msgid "Action Plans"
+msgstr "Планы действий"
+
+#: views/view_0_add_person_to_family.class.php:63
+msgid "Execute the following action plans for the new person:"
+msgstr "Запустить следующий план действий для нового человека:"
+
+#: views/view_0_add_person_to_family.class.php:69
+msgid "Add Family Member"
+msgstr "Добавить члена семьи"
+
+#: views/view_0_delete_person.class.php:73
+msgid "Delete "
+msgstr "Удалить "
+
+#: views/view_0_delete_person.class.php:79
+msgid "Archive only"
+msgstr "Только архивировать"
+
+#: views/view_0_delete_person.class.php:80
+msgid "Archive and Cleanse"
+msgstr "Архивировать и очистить"
+
+#: views/view_0_delete_person.class.php:81
+msgid "Delete altogether"
+msgstr "Удалить полностью"
+
+#: views/view_0_delete_person.class.php:87
+msgid ""
+"This person cannot be deleted because they or their family have notes "
+"requiring action. "
+msgstr ""
+"Этот человек не может быть удален, потому что он или его семья имеют "
+"заметки, требующие действия. "
+
+#: views/view_0_delete_person.class.php:88
+msgid "Resolve the note(s) and then try again."
+msgstr "Примите решения по заметкам и попробуйте снова."
+
+#: views/view_0_delete_person.class.php:96
+msgid ""
+"Because this person has a user account, they cannot be deleted altogether. "
+msgstr "Этот человек имеет учетную запись, его нельзя удалить полностью. "
+
+#: views/view_0_delete_person.class.php:97
+msgid ""
+"But they can be archived, and you can also cleanse their archived record, "
+"which will"
+msgstr ""
+"Но эти записи могут быть архивированы, и вы сможете очистить архивные "
+"записи, что"
+
+#: views/view_0_delete_person.class.php:104
+msgid ""
+"Deleting this person is not recommended since they have roster assignments "
+"and/or attendance records, and deleting them will affect historical "
+"statistics."
+msgstr ""
+"Удаление этого человека не рекомендуется, потому что на него есть назначения "
+"и/или записи о посещаемости, их удаление повлияет на статистику прошлых "
+"периодов."
+
+#: views/view_0_delete_person.class.php:107
+msgid ""
+"It is recommended that you archive them instead.  You can also cleanse their "
+"archived record, which will"
+msgstr ""
+"Вместо этого, рекомендуется архивировать записи. Вы также можете очистить "
+"архивную запись, что"
+
+#: views/view_0_delete_person.class.php:111
+msgid "Deleting a person altogether cannot be undone."
+msgstr "Полное удаление человека не может быть отменено."
+
+#: views/view_0_delete_person.class.php:117
+msgid ""
+"Deleting a person cannot be undone. Rather than deleting a person "
+"altogether, it is usually preferable to archive them so that they remain on "
+"the historical record. "
+msgstr ""
+"Удаление человека не может быть отменено. Вместо полного удаления обычно "
+"рекомендуется архивировать записи, чтобы они оставались для статистики. "
+
+#: views/view_0_delete_person.class.php:118
+msgid "You can also cleanse their archived record, which will"
+msgstr "Вы также можете очистить архивную запись, что"
+
+#: views/view_0_edit_attendance.class.php:27
+msgid "Edit attendance at "
+msgstr "Редактировать посещаемость в "
+
+#: views/view_0_edit_attendance.class.php:27
+msgid " for "
+msgstr " для "
+
+#: views/view_0_edit_attendance.class.php:29
+msgid "Edit congregational attendance for "
+msgstr "Редактировать посещаемость собрания для "
+
+#: views/view_0_edit_congregation.class.php:42
+msgid "Editing Congregation "
+msgstr "Редактирование собрания "
+
+#: views/view_0_edit_congregation.class.php:65
+msgid ""
+"Your changes could not be saved because your lock has expired.  The lock has "
+"now been acquired by another user.  Wait some time for them to finish and "
+"then "
+msgstr ""
+"Ваши изменения не могут быть сохранены, потому что блокировка истекла. "
+"Другой пользователь заблокировал данные. Подождите некоторое время, чтобы он "
+"закончил, а затем "
+
+#: views/view_0_edit_congregation.class.php:65
+#: views/view_0_edit_congregation.class.php:77
+#: views/view_0_edit_note.class.php:119
+#: views/view_0_edit_user_account.class.php:46
+#: views/view_0_edit_user_account.class.php:59
+msgid "try again"
+msgstr "попробуйте снова"
+
+#: views/view_0_edit_congregation.class.php:77
+msgid ""
+"This congregation cannot currently be edited because another user has the "
+"lock.  Wait some time for them to finish and then "
+msgstr ""
+"Конгрегация не может быть изменена, потому что другой пользователь "
+"заблокировал ее. Подождите некоторое время, чтобы он закончил, а затем "
+
+#: views/view_0_edit_congregation.class.php:88
+msgid "Update Congregation"
+msgstr "Обновить собрание"
+
+#: views/view_0_edit_me.class.php:18
+#: views/view_0_edit_user_account.class.php:28
+msgid "Editing User Account for "
+msgstr "Редактирование учетной записи пользователя для "
+
+#: views/view_0_edit_note.class.php:19
+msgid "Note deleted"
+msgstr "Заметка удалена"
+
+#: views/view_0_edit_note.class.php:22
+msgid "Failed to delete note"
+msgstr "Не получилось удалить заметку"
+
+#: views/view_0_edit_note.class.php:101
+msgid "Editing Person Note for "
+msgstr "Редактирование личной заметки для "
+
+#: views/view_0_edit_note.class.php:103
+msgid "Editing Note for "
+msgstr "Редактирование заметки для "
+
+#: views/view_0_edit_note.class.php:116 views/view_0_edit_note.class.php:119
+msgid "Your changes could not be saved because your lock had expired. "
+msgstr ""
+"Ваши изменения не могут быть сохранены, потому что блокировка истекла. "
+
+#: views/view_0_edit_note.class.php:116
+msgid "Try making your changes again using the form below"
+msgstr "Попробуйте снова ввести изменения в форме ниже"
+
+#: views/view_0_edit_note.class.php:119
+msgid "The lock has now been acquired by another user. "
+msgstr "Данные были заблокированы другим пользователем. "
+
+#: views/view_0_edit_note.class.php:119
+msgid "Wait some time for them to finish and then "
+msgstr "Подождите некоторое время, чтобы он закончил, а затем "
+
+#: views/view_0_edit_user_account.class.php:40
+msgid ""
+"Your changes could not be saved because your lock had expired. Try making "
+"your changes again using the form below"
+msgstr ""
+"Ваши изменения не могут быть сохранены, потому что блокировка истекла. "
+"Попробуйте снова ввести изменения в форме ниже"
+
+#: views/view_0_edit_user_account.class.php:59
+msgid ""
+"This person cannot currently be edited because another user has the lock. "
+msgstr ""
+"Личная запись не может быть отредактирована, потому что она заблокирована "
+"другим пользователем. "
+
+#: views/view_0_edit_user_account.class.php:59
+msgid "Wait some time for them to finish and then"
+msgstr "Подождите некоторое время, чтобы он закончил, а затем"
+
+#: views/view_0_edit_user_account.class.php:70
+msgid "Update Account"
+msgstr "Обновить учетную запись"
+
+#: views/view_0_mixed_search.class.php:135
+#: views/view_3_persons__2_search.class.php:57
+#, php-format
+msgid "These results include matches on the searchable custom fields %s"
+msgstr "Эти результаты включают совпадения в пользовательских полях %s"
+
+#: views/view_10_admin__1_congregations.class.php:11
+#: views/view_6_attendance__3_statistics.class.php:91
+msgid "Congregations"
+msgstr "Конгрегации"
+
+#: views/view_10_admin__1_congregations.class.php:21
+msgid "Cannot delete congregation because it is not empty"
+msgstr "Не удается удалить конгрегацию, поскольку она не пуста"
+
+#: views/view_10_admin__1_congregations.class.php:24
+msgid "Congregation deleted"
+msgstr "Конгрегация удалена"
+
+#: views/view_10_admin__1_congregations.class.php:34
+msgid ""
+"Each person can be in one congregation.  A person with status 'contact' can "
+"be congregationless.  You may want to create extra congregations to "
+"represent kids church, housebound persons, etc."
+msgstr ""
+"Каждый человек может быть в одной конгрегации. Человек со статусом \"Контакт"
+"\" может быть вне конгрегаций. Вы можете создать несколько конгрегаций, "
+"которые представляют детскую церковь, людей без возможности выйти из дома и "
+"т.д."
+
+#: views/view_10_admin__1_congregations.class.php:43
+msgid "Long Name"
+msgstr "Длинное название"
+
+#: views/view_10_admin__1_congregations.class.php:44
+msgid "Short Name"
+msgstr "Короткое название"
+
+#: views/view_10_admin__1_congregations.class.php:45
+msgid "Code Name"
+msgstr "Кодовое имя"
+
+#: views/view_10_admin__1_congregations.class.php:82
+msgid ""
+"To delete a congregation, first ensure it contains no members, then it can "
+"be deleted via this page"
+msgstr ""
+"Чтобы удалить конгрегацию, убедитесь, что в ней нет членов, тогда вы сможете "
+"удалить ее с этой страницы"
+
+#: views/view_10_admin__2_user_accounts.class.php:11
+msgid "User Accounts"
+msgstr "Пользователи"
+
+#: views/view_10_admin__2_user_accounts.class.php:24
+msgid ""
+"User accounts are usually created to give staff and ministry leaders access "
+"to Jethro.  You need to create their person record first, then add a user "
+"account to go with it.  Usually it's best to let church members create their "
+"own accounts in the member area"
+msgstr ""
+"Учетные записи пользователей обычно создаются для того, чтобы дать доступ "
+"персоналу и лидерам служения к системе Иофор. Вам нужно сначала создать "
+"личную запись для человека, а затем учетную запись пользователя. Обычно, "
+"лучше позволить членам церкви отредактировать свои учетные записи в разделе "
+"для членов церкви"
+
+#: views/view_10_admin__2_user_accounts.class.php:25
+msgid "member area"
+msgstr "членский раздел"
+
+#: views/view_10_admin__2_user_accounts.class.php:26
+msgid "staff and ministry leaders"
+msgstr "персонал и лидеры служений"
+
+#: views/view_10_admin__2_user_accounts.class.php:27
+msgid "church members"
+msgstr "члены церкви"
+
+#: views/view_10_admin__2_user_accounts.class.php:31
+msgid "Add User Account"
+msgstr "Добавить учетную запись пользователя"
+
+#: views/view_10_admin__2_user_accounts.class.php:41
+msgid "Inactive"
+msgstr "Неактивно"
+
+#: views/view_10_admin__3_custom_fields.class.php:74
+msgid ""
+"When you define a custom field here, you'll then be able to enter a value "
+"for that field when editing a person record."
+msgstr ""
+"Если вы определите пользовательское поле здесь, вы сможете ввести значение "
+"для этого поля при редактировании личной записи человека."
+
+#: views/view_10_admin__3_custom_fields.class.php:76
+msgid ""
+"Custom fields are useful for recording dates of birth, accreditations and "
+"medical details."
+msgstr ""
+"Пользовательские поля полезны для записи дат рождения, медицинских сведений "
+"и других отметок."
+
+#: views/view_10_admin__4_note_templates.class.php:69
+msgid ""
+"When you create a note template here, it then becomes available for use when "
+"adding a note to a person. Templates are useful if you often need to add "
+"notes containing a fixed set of details, for example an incident report or "
+"training record. "
+msgstr ""
+"Если вы создадите шаблон заметки здесь, он станет доступным для "
+"использования при добавлении заметки о человеке. Шаблоны полезны, если вам "
+"часто нужно добавлять заметки с определенным набором данных, например запись "
+"про об инциденте или обучении. "
+
+#: views/view_10_admin__5_action_plans.class.php:78
+msgid ""
+"An action plan is a set of pre-defined actions to be performed on a person "
+"or family, for example adding a note or adding them to a group. You can "
+"trigger an action plan when creating a family, when viewing a person, or "
+"using the bulk-actions tool.  Action plans can be useful for automating a "
+"workflow such as your newcomer integration process."
+msgstr ""
+"План действий - это набор предопределенных действий, который нужно выполнить "
+"в отношении человека или семьи, например добавление заметок или добавление "
+"их в группы. Вы можете запускать план действий, когда создаете семью, "
+"просматриваете личную запись или с помощью инструментов групповых действий. "
+"Планы действий полезны для автоматизации рабочего процесса, например при "
+"интеграции новообращенного."
+
+#: views/view_10_admin__6_system_configuration.class.php:71
+msgid "This setting has been set in the conf.php file"
+msgstr "Эта настройка была установлена в файле conf.php"
+
+#: views/view_10_admin__6_system_configuration.class.php:75
+msgid "To edit this setting here, first remove it from your conf.php file"
+msgstr "Чтобы изменить эту настройку здесь, сначала удалите ее из conf.php"
+
+#: views/view_10_admin__6_system_configuration.class.php:397
+msgid ""
+"Age brackets with the \"is adult\" box ticked are treated as adults when, "
+"for example, sending an email to the adults in a family."
+msgstr ""
+"Люди, попадающее в возрастные рамки с опцией \"взрослый\" будут пониматься "
+"как взрослые, к примеру, при отправке письма взрослым членам семьи."
+
+#: views/view_10_admin__6_system_configuration.class.php:399
+msgid ""
+"If you delete an age bracket, persons using that age bracket will be set to "
+"the default age bracket."
+msgstr ""
+"Если вы удалите возрастную рамку, то людям, которые в нее попадают будет "
+"присвоена возрастная рамка по-умолчанию."
+
+#: views/view_10_admin__7_import.class.php:124
+msgid "Errors during import - import aborted"
+msgstr "Ошибки в процессе импорта - импорт прерван"
+
+#: views/view_10_admin__7_import.class.php:128
+msgid "Import complete"
+msgstr "Импорт завершен"
+
+#: views/view_10_admin__7_import.class.php:137
+msgid "You must choose a group first"
+msgstr "Вы должны сначала выбрать группу"
+
+#: views/view_10_admin__7_import.class.php:142
+msgid "You must upload a file"
+msgstr "Вы должны загрузить файл"
+
+#: views/view_10_admin__7_import.class.php:152
+msgid "There was a problem reading your CSV file.  Please try again."
+msgstr ""
+"Произошла ошибка чтения вашего CSV файла. Пожалуйста, попробуйте еще раз."
+
+#: views/view_10_admin__7_import.class.php:234
+msgid ""
+"Your import file is not valid.  Please correct the following errors and try "
+"again:"
+msgstr ""
+"Ваш файл для импорта имеет неверный формат. Пожалуйста, исправьте следующие "
+"ошибки и попробуйте снова:"
+
+#: views/view_10_admin__7_import.class.php:253
+msgid ""
+"You must create a group to import into before you can import persons.  See "
+"Groups > Add."
+msgstr ""
+"Вам нужно создать группу в которую вы будете импортировать прежде, чем вы "
+"сможете импортировать людей. Смотрите Группы -> Добавить."
+
+#: views/view_10_admin__7_import.class.php:256
+msgid ""
+"This page allows you to import persons, families and notes from a CSV file.  "
+"The CSV must be in a format like this sample file.  (The order of columns is "
+"flexible but the first row must be a header with these column names).\n"
+"\t\t\t\t\tYou may also include extra columns labelled with the exact name of "
+"custom fields.\n"
+"\t\t\t\t\tJethro will create a new person record for each row in the CSV "
+"file.  Jethro will create a new family record whenever a row contains "
+"different family details to the previous row (although changing to or from a "
+"blank value does not count as a change).  A new family is also triggered if "
+"you include an entirely blank row.\n"
+"\t\t\t\t\tAll the imported persons will be added to the group you choose "
+"below."
+msgstr ""
+"Эта страница позволяет вам импортировать людей, семьи и заметки из CSV "
+"файла. CSV файл должен соответствовать формату образца. (Порядок колонок "
+"нестрогий, но первая строка должна содержать заголовок с названиями "
+"колонок).\n"
+"\t\t\t\t\tВы можете также включить дополнительные колонки, названия которых "
+"совпадают с пользовательскими полями.\n"
+"\t\t\t\t\tИофор создаст новую личную запись для каждой строки в CSV файле. "
+"Иофор создаст новую запись о семье каждый раз, когда строка содержит "
+"сведения о семье, которые отличаются от предыдущей строки (хотя пустые "
+"значения не считаются изменениями). Новая семья также будет создана, если вы "
+"добавите полностью пустую строку.\n"
+"\t\t\t\t\tВсе импортированные люди будут добавлены в группу, которую вы "
+"выберете ниже."
+
+#: views/view_10_admin__7_import.class.php:260
+msgid "sample file"
+msgstr "файл-образец"
+
+#: views/view_10_admin__7_import.class.php:281
+msgid "You will be asked to confirm at the next step"
+msgstr "От вас потребуется подтверждение на следующем шаге"
+
+#: views/view_10_admin__7_import.class.php:291
+msgid ""
+"Please check the following is correct then click \"confirm\" at the bottom"
+msgstr ""
+"Пожалуйста, убедитесь в том, что следующие данные верны, и нажмите "
+"\"Подтвердить\" внизу"
+
+#: views/view_10_admin__7_import.class.php:294
+#, php-format
+msgid ""
+"%s families,\n"
+"\t\t\t\t\t\t\t\t\t%s persons and\n"
+"\t\t\t\t\t\t\t\t\t%s notes\n"
+"\t\t\t\t\t\t\t\t\twill be created."
+msgstr ""
+"%s семей,\n"
+"\t\t\t\t\t\t\t\t\t%s человек и\n"
+"\t\t\t\t\t\t\t\t\t%s заметок\n"
+"\t\t\t\t\t\t\t\t\tбудет создано."
+
+#: views/view_10_admin__7_import.class.php:304
+#, php-format
+msgid "The new persons will be added to the %s group."
+msgstr "Новые люди будут добавлены в группу %s."
+
+#: views/view_1_home.class.php:28
+msgid "Bookmark"
+msgstr "Закладка"
+
+#: views/view_1_home.class.php:30
+msgid "System-Wide Search"
+msgstr "Поиск по всей системе"
+
+#: views/view_1_home.class.php:36
+msgid "\"Name, Phone or Email\""
+msgstr "\"Имя, телефон или почта\""
+
+#: views/view_1_home.class.php:48
+msgid "Notes "
+msgstr "Заметки "
+
+#: views/view_1_home.class.php:48
+msgid "for immediate action"
+msgstr "для немедленного действия"
+
+#: views/view_1_home.class.php:88
+msgid "You have "
+msgstr "У вас "
+
+#: views/view_1_home.class.php:88
+msgid "for future action"
+msgstr "для будущих действий"
+
+#: views/view_1_home.class.php:101
+msgid "Upcoming roster"
+msgstr "Предстоящие назначения"
+
+#: views/view_2_families.class.php:17
+msgid "Viewing Family: "
+msgstr "Просмотр семьи: "
+
+#: views/view_2_families.class.php:19
+msgid "Error: No family supplied"
+msgstr "Ошибка: не указана семья"
+
+#: views/view_2_families__1_list_all.class.php:31
+msgid "All Families"
+msgstr "Все семьи"
+
+#: views/view_2_families__1_list_all.class.php:46
+msgid "Include Archived"
+msgstr "Включить архив"
+
+#: views/view_2_families__1_list_all.class.php:48
+msgid "Exclude Archived"
+msgstr "Исключить архив"
+
+#: views/view_2_families__1_list_all.class.php:57
+msgid "No families in this range"
+msgstr "Нет семей в этом диапазоне"
+
+#: views/view_2_families__1_list_all.class.php:61
+msgid "No families were found"
+msgstr "Ни одной семьи не найдено"
+
+#: views/view_2_families__1_list_all.class.php:62
+msgid "Include Archived families"
+msgstr "Включать семьи из архива"
+
+#: views/view_2_families__1_list_all.class.php:67
+msgid "families in this range"
+msgstr "семей в этом диапазоне"
+
+#: views/view_2_families__1_list_all.class.php:69
+msgid "families in total"
+msgstr "семей всего"
+
+#: views/view_2_families__2_search.class.php:48
+msgid "Family Search Results"
+msgstr "Результаты поиска семей"
+
+#: views/view_2_families__2_search.class.php:56
+msgid "No matching families were found"
+msgstr "Не найдено подходящих семей"
+
+#: views/view_2_families__3_add.class.php:29
+msgid "New family must have at least one member"
+msgstr "Новая семья должна включать хотя бы одного члена"
+
+#: views/view_2_families__3_add.class.php:34
+msgid "A subject must be supplied for the initial family note"
+msgstr "Нужно указать тему для начальной заметки о семье"
+
+#: views/view_2_families__3_add.class.php:108
+msgid "Family Created"
+msgstr "Семья создана"
+
+#: views/view_2_families__3_add.class.php:113
+msgid "Error during family creation, family not created"
+msgstr "Ошибка в процессе создания семьи, семья не создана"
+
+#: views/view_2_families__3_add.class.php:120
+msgid "Add Family"
+msgstr "Добавить семью"
+
+#: views/view_2_families__3_add.class.php:136
+msgid ""
+"Several families already exist that are similar to the one you are creating"
+msgstr "Существует несколько семей, которые похожи на ту, что вы создаете"
+
+#: views/view_2_families__3_add.class.php:137
+msgid "A family similar to the one you are creating already exists"
+msgstr "Уже существует семья, которая похожа на ту, что вы создаете"
+
+#: views/view_2_families__3_add.class.php:143
+msgid "Family"
+msgstr "Семья"
+
+#: views/view_2_families__3_add.class.php:151
+msgid "Create new family anyway"
+msgstr "Создать новую семью все равно"
+
+#: views/view_2_families__3_add.class.php:155
+msgid "Cancel family creation"
+msgstr "Отменить создание семьи"
+
+#: views/view_2_families__3_add.class.php:191
+#: views/view_2_families__3_add.class.php:258
+msgid "First Name"
+msgstr "Имя"
+
+#: views/view_2_families__3_add.class.php:192
+#: views/view_2_families__3_add.class.php:259
+msgid "Last Name"
+msgstr "Фамилия"
+
+#: views/view_2_families__3_add.class.php:201
+#: views/view_2_families__4_contact_list.class.php:63
+#: views/view_2_families__4_contact_list.class.php:107
+#: views/view_5_groups.class.php:228
+msgid "Congregation"
+msgstr "Конгрегация"
+
+#: views/view_2_families__3_add.class.php:218
+msgid "Group (optional)"
+msgstr "Группа (необязательно)"
+
+#: views/view_2_families__3_add.class.php:224
+msgid "Group Membership Status"
+msgstr "Статус членства в группе"
+
+#: views/view_2_families__3_add.class.php:235
+#: views/view_2_families__3_add.class.php:265
+#: views/view_3_persons__3_reports.class.php:187
+msgid "Email"
+msgstr "Почта"
+
+#: views/view_2_families__3_add.class.php:263
+msgid "Cong."
+msgstr "Конгр."
+
+#: views/view_2_families__3_add.class.php:264
+msgid "Mobile Tel"
+msgstr "Мобильный тел"
+
+#: views/view_2_families__3_add.class.php:286
+#: views/view_2_families__3_add.class.php:309
+msgid "(optional)"
+msgstr "(необязательно)"
+
+#: views/view_2_families__3_add.class.php:297
+msgid "Initial Note"
+msgstr "Начальная заметка"
+
+#: views/view_2_families__3_add.class.php:297
+msgid "required"
+msgstr "обязательно"
+
+#: views/view_2_families__3_add.class.php:297
+msgid "optional"
+msgstr "необязательно"
+
+#: views/view_2_families__3_add.class.php:309
+msgid "Action plans"
+msgstr "Планы действий"
+
+#: views/view_2_families__3_add.class.php:310
+msgid "Execute the following action plans for the new family:"
+msgstr "Запустить следующие планы действий для новой семьи:"
+
+#: views/view_2_families__3_add.class.php:318
+msgid "Create"
+msgstr "Создать"
+
+#: views/view_2_families__3_add.class.php:320
+msgid "Create Family"
+msgstr "Создать семью"
+
+#: views/view_2_families__4_contact_list.class.php:21
+msgid "Contact List"
+msgstr "Список контактов"
+
+#: views/view_2_families__4_contact_list.class.php:40
+msgid "You must choose an opt-in group"
+msgstr "Вы должны выбрать группу подписки"
+
+#: views/view_2_families__4_contact_list.class.php:57
+msgid "Opt-in group"
+msgstr "Группа подписки"
+
+#: views/view_2_families__4_contact_list.class.php:59
+msgid "Only show families that have a member in the group"
+msgstr "Показывать только те семьи, члены которых входят в группу"
+
+#: views/view_2_families__4_contact_list.class.php:64
+msgid "Only include opted-in persons from"
+msgstr "Включать только подписавшихся людей из"
+
+#: views/view_2_families__4_contact_list.class.php:68
+msgid "Age brackets"
+msgstr "Возрастные рамки"
+
+#: views/view_2_families__4_contact_list.class.php:69
+msgid "Only show contact details for persons who are"
+msgstr "Показывать контактные данные только тех людей, которые"
+
+#: views/view_2_families__4_contact_list.class.php:74
+msgid "Other family members"
+msgstr "Другие члены семьи"
+
+#: views/view_2_families__4_contact_list.class.php:75
+msgid "When a family has other members not in the opt-in group above:"
+msgstr "Когда в семью входят другие члены, не входящие в группу подписки выше:"
+
+#: views/view_2_families__4_contact_list.class.php:78
+msgid "Do not show them at all"
+msgstr "Не показывать их вообще"
+
+#: views/view_2_families__4_contact_list.class.php:82
+msgid "Show their names but no contact details"
+msgstr "Показывать их имена, но не контактные данные"
+
+#: views/view_2_families__4_contact_list.class.php:86
+msgid "Show their contact details just like the opted-in persons"
+msgstr "Показывать их контактные данные так же как и для подписанных людей"
+
+#: views/view_2_families__4_contact_list.class.php:90
+msgid "Details to show"
+msgstr "Сведения для отображения"
+
+#: views/view_2_families__4_contact_list.class.php:95
+msgid "Home address"
+msgstr "Домашний адрес"
+
+#: views/view_2_families__4_contact_list.class.php:101
+msgid "Home phone"
+msgstr "Номер телефона"
+
+#: views/view_2_families__4_contact_list.class.php:116
+msgid "Family photos"
+msgstr "Семейные фото"
+
+#: views/view_2_families__4_contact_list.class.php:257
+msgid "No families to show"
+msgstr "Нет семей для отображения"
+
+#: views/view_3_persons.class.php:22
+msgid "Viewing Person: "
+msgstr "Просмотр личной записи: "
+
+#: views/view_3_persons.class.php:24
+msgid "Person not found"
+msgstr "Человек не найден"
+
+#: views/view_3_persons__1_list_all.class.php:31
+msgid "All Persons"
+msgstr "Все люди"
+
+#: views/view_3_persons__1_list_all.class.php:56
+msgid "No persons in this range"
+msgstr "Нет людей в диапазоне"
+
+#: views/view_3_persons__1_list_all.class.php:60
+msgid "No persons were found"
+msgstr "Ни одного человека не найдено"
+
+#: views/view_3_persons__1_list_all.class.php:61
+msgid "Include Archived Persons"
+msgstr "Включить людей из архива"
+
+#: views/view_3_persons__1_list_all.class.php:66
+msgid " persons in this range"
+msgstr " людей в этом диапазоне"
+
+#: views/view_3_persons__1_list_all.class.php:68
+msgid " persons in total"
+msgstr " людей всего"
+
+#: views/view_3_persons__3_reports.class.php:58
+#: views/view_3_persons__3_reports.class.php:67
+msgid "Configure Person Report"
+msgstr "Настроить отчет по людям"
+
+#: views/view_3_persons__3_reports.class.php:63
+msgid "Person Report Results"
+msgstr "Результаты отчета по людям"
+
+#: views/view_3_persons__3_reports.class.php:70
+msgid "Person Reports"
+msgstr "Отчеты по людям"
+
+#: views/view_3_persons__3_reports.class.php:85
+msgid "\"Save and view results\""
+msgstr "\"Сохранить и просмотреть результаты\""
+
+#: views/view_3_persons__3_reports.class.php:86
+msgid "\"Save and return to report list\""
+msgstr "\"Сохранить и вернуться в список отчетов\""
+
+#: views/view_3_persons__3_reports.class.php:87
+msgid "Cancel and return to report list"
+msgstr "Отменить и вернуться в список отчетов"
+
+#: views/view_3_persons__3_reports.class.php:101
+msgid "Back to list of reports"
+msgstr "Назад в список отчетов"
+
+#: views/view_3_persons__3_reports.class.php:104
+msgid "Reconfigure this report"
+msgstr "Настроить этот отчет заново"
+
+#: views/view_3_persons__3_reports.class.php:107
+msgid "Download CSV"
+msgstr "Скачать CSV"
+
+#: views/view_3_persons__3_reports.class.php:115
+msgid "Create a new report"
+msgstr "Создать новый отчет"
+
+#: views/view_3_persons__3_reports.class.php:122
+msgid "There are not yet any reports saved in the system"
+msgstr "В системе пока нет сохраненных отчетов"
+
+#: views/view_3_persons__3_reports.class.php:131
+msgid "Report Name"
+msgstr "Имя отчета"
+
+#: views/view_3_persons__3_reports.class.php:132
+msgid "Visible To"
+msgstr "Видимо для"
+
+#: views/view_3_persons__3_reports.class.php:139
+msgid "Results"
+msgstr "Результаты"
+
+#: views/view_3_persons__3_reports.class.php:152
+msgid "Last ad-hoc report"
+msgstr "Последний \"быстрый\" отчет"
+
+#: views/view_3_persons__3_reports.class.php:155
+#: views/view_3_persons__3_reports.class.php:193
+msgid "Configure"
+msgstr "Настроить"
+
+#: views/view_3_persons__3_reports.class.php:177
+msgid "Only Me"
+msgstr "Только я"
+
+#: views/view_3_persons__3_reports.class.php:216
+msgid "\"Show result counts for selected reports\""
+msgstr "\"Показать количество результатов для выбранных людей\""
+
+#: views/view_3_persons__4_statistics.class.php:12
+msgid "System-wide Person Statistics"
+msgstr "Общесистемная статистика по людям"
+
+#: views/view_4_notes__1_for_immediate_action.class.php:30
+msgid "Notes For Immediate Action"
+msgstr "Заметки для немедленного действия"
+
+#: views/view_4_notes__2_for_future_action.class.php:24
+msgid "Notes For Future Action"
+msgstr "Заметки для будущих действий"
+
+#: views/view_5_groups.class.php:9
+msgid "Viewing Group: "
+msgstr "Просмотр группы: "
+
+#: views/view_5_groups.class.php:42
+msgid "Group Details"
+msgstr "Сведения о группе"
+
+#: views/view_5_groups.class.php:47
+msgid "Record Attendance?"
+msgstr "Учитывать посещаемость?"
+
+#: views/view_5_groups.class.php:53 views/view_5_groups.class.php:170
+msgid "Edit group details"
+msgstr "Изменить сведения о группе"
+
+#: views/view_5_groups.class.php:62
+msgid "Share Member Details?"
+msgstr "Делиться сведениями о членах?"
+
+#: views/view_5_groups.class.php:68 views/view_5_groups.class.php:70
+msgid "Delete group"
+msgstr "Удалить группу"
+
+#: views/view_5_groups.class.php:93
+msgid "Add Members by Name Search"
+msgstr "Добавить членов через поиск по имени"
+
+#: views/view_5_groups.class.php:98
+msgid "Select persons:"
+msgstr "Выбрать людей:"
+
+#: views/view_5_groups.class.php:107
+msgid "Membership status:"
+msgstr "Статус членства:"
+
+#: views/view_5_groups.class.php:129
+msgid "Email members of "
+msgstr "Отправить письмо членам "
+
+#: views/view_5_groups.class.php:148
+msgid "Group Members"
+msgstr "Члены группы"
+
+#: views/view_5_groups.class.php:158
+msgid "Show archived members"
+msgstr "Показывать членов из архива"
+
+#: views/view_5_groups.class.php:162
+msgid "Hide archived members"
+msgstr "Спрятать членов из архива"
+
+#: views/view_5_groups.class.php:176
+msgid "Email members"
+msgstr "Отправить письмо членам"
+
+#: views/view_5_groups.class.php:184
+msgid "Edit membership statuses"
+msgstr "Изменить статусы членства"
+
+#: views/view_5_groups.class.php:192
+msgid "Add members"
+msgstr "Добавить членов"
+
+#: views/view_5_groups.class.php:233
+msgid "Membership status"
+msgstr "Статус членства"
+
+#: views/view_5_groups.class.php:304
+msgid "Save membership statuses"
+msgstr "Сохранить статусы членства"
+
+#: views/view_5_groups.class.php:318
+msgid "This group does not currently have any members"
+msgstr "Сейчас эта группа не содержит членов"
+
+#: views/view_5_groups__1_list_all.class.php:10
+msgid "All Groups"
+msgstr "Все группы"
+
+#: views/view_5_groups__1_list_all.class.php:104
+msgid "Include Archived Groups"
+msgstr "Включить архивные группы"
+
+#: views/view_5_groups__1_list_all.class.php:108
+msgid "Exclude Archived Groups"
+msgstr "Исключить архивные группы"
+
+#: views/view_5_groups__1_list_all.class.php:114
+msgid "Add a new group"
+msgstr "Добавить новую группу"
+
+#: views/view_5_groups__1_list_all.class.php:124
+msgid "Uncategorised Groups"
+msgstr "Группы без категории"
+
+#: views/view_5_groups__3_add.class.php:33
+msgid "Save and view group"
+msgstr "Сохранить и просмотреть группу"
+
+#: views/view_5_groups__3_add.class.php:34
+msgid "Save group and create another"
+msgstr "Сохранить группу и создать новую"
+
+#: views/view_5_groups__4_manage_categories.class.php:16
+msgid "Category deleted"
+msgstr "Категория удалена"
+
+#: views/view_5_groups__4_manage_categories.class.php:23
+msgid "Person Group Categories"
+msgstr "Категории групп людей"
+
+#: views/view_5_groups__4_manage_categories.class.php:32
+msgid ""
+"A person group in Jethro can belong to up to 1 category.  Group categories "
+"can contain sub-categories.  Putting groups into categories makes it easier "
+"to browse through them, and also allows you to run person queries based on "
+"all the groups in a category."
+msgstr ""
+"Группа людей в \"Иофоре\" может быть в одной категории. Категории групп "
+"могут содержать под-категории. Поместив группы в категории, вам будет легче "
+"просматривать их, это также позволит вам выполнять запросы по всем группам в "
+"категории."
+
+#: views/view_5_groups__4_manage_categories.class.php:35
+msgid "Add a new group category"
+msgstr "Добавить новую категорию групп"
+
+#: views/view_5_groups__4_manage_categories.class.php:60
+msgid "Are you sure you want to delete this category?"
+msgstr "Вы уверены в том, что хотите удалить эту категорию?"
+
+#: views/view_6_attendance__1_record.class.php:25
+msgid "Attendance recorded for "
+msgstr "Запись о посещаемости для "
+
+#: views/view_6_attendance__1_record.class.php:27
+msgid "Record Attendance for "
+msgstr "Записать посещаемость на "
+
+#: views/view_6_attendance__1_record.class.php:29
+msgid "Record Attendance"
+msgstr "Записать посещаемость"
+
+#: views/view_6_attendance__1_record.class.php:80
+msgid "\"Attendance for \""
+msgstr "\"Посещаемость на \""
+
+#: views/view_6_attendance__1_record.class.php:80
+msgid "\" cannot be recorded on a \""
+msgstr "\" не может быть записана на\""
+
+#: views/view_6_attendance__1_record.class.php:87
+msgid "\"Another user is currently recording attendance for \""
+msgstr "\"Другой пользователь сейчас записывает посещаемость для \""
+
+#: views/view_6_attendance__1_record.class.php:87
+msgid "\".  Please wait until they finish then try again.\""
+msgstr "\". Пожалуйста, подождите окончания операции и попробуйте снова.\""
+
+#: views/view_6_attendance__1_record.class.php:158
+#: views/view_6_attendance__2_display.class.php:94
+msgid "In"
+msgstr "В"
+
+#: views/view_6_attendance__1_record.class.php:174
+msgid "On"
+msgstr "На"
+
+#: views/view_6_attendance__1_record.class.php:188
+msgid "Show photos"
+msgstr "Показать фото"
+
+#: views/view_6_attendance__1_record.class.php:196
+msgid "Use tabular format"
+msgstr "Использовать табличный формат"
+
+#: views/view_6_attendance__1_record.class.php:207
+msgid "Continue"
+msgstr "Продолжить"
+
+#: views/view_6_attendance__1_record.class.php:246
+msgid "The parameters you have selected will list more persons "
+msgstr "Выбранные вами параметры отобразят больше людей "
+
+#: views/view_6_attendance__1_record.class.php:247
+msgid "than your server can process.  Please narrow down your parameters, "
+msgstr ""
+"чем сервер может обработать. Пожалуйста, уменьшите количество параметров "
+
+#: views/view_6_attendance__1_record.class.php:248
+msgid ""
+"or ask your server administrator to increase the PHP max_input_vars setting"
+msgstr ""
+"или попросите администратора сервера увеличить значение настройки PHP "
+"max_input_vars"
+
+#: views/view_6_attendance__1_record.class.php:249
+msgid " (currently "
+msgstr " (сейчас "
+
+#: views/view_6_attendance__1_record.class.php:360
+msgid "Total Headcount:"
+msgstr "Общая численность:"
+
+#: views/view_6_attendance__1_record.class.php:420
+msgid "Total headcount:"
+msgstr "Общая численность:"
+
+#: views/view_6_attendance__1_record.class.php:431
+msgid "(No persons in this listing)"
+msgstr "(В этом списке нет людей)"
+
+#: views/view_6_attendance__1_record.class.php:457
+msgid "Record more attendances"
+msgstr "Сделать еще запись посещаемости"
+
+#: views/view_6_attendance__1_record.class.php:458
+msgid "Analyse attendance using a person report"
+msgstr "Смотреть посещаемость в отчете по людям"
+
+#: views/view_6_attendance__2_display.class.php:21
+msgid "Display attendance"
+msgstr "Отобразить посещаемость"
+
+#: views/view_6_attendance__2_display.class.php:110
+msgid "Between"
+msgstr "Между"
+
+#: views/view_6_attendance__2_display.class.php:116
+msgid "And"
+msgstr "И"
+
+#: views/view_6_attendance__2_display.class.php:122
+msgid "Format"
+msgstr "Формат"
+
+#: views/view_6_attendance__2_display.class.php:170
+msgid " Congregation"
+msgstr " - Конгрегация"
+
+#: views/view_6_attendance__2_display.class.php:174
+msgid " Group"
+msgstr " Группа"
+
+#: views/view_6_attendance__2_display.class.php:183
+msgid ""
+"\"Congregational attendance cannot be filtered by a group membership status. "
+"Please clear the status filter to display attendance for this congregation.\""
+msgstr ""
+"\"Посещаемость конгрегации не может быть отфильтрована по статусу членства в "
+"группе. Очистите фильтр статуса, чтобы отобразить посещаемость для этой "
+"конгрегации.\""
+
+#: views/view_6_attendance__2_display.class.php:190
+msgid "No attendance records found.  Try adjusting your criteria."
+msgstr ""
+"Записей о посещаемости не найдено. Попробуйте изменить критерии поиска."
+
+#: views/view_6_attendance__2_display.class.php:523
+msgid "Total Present"
+msgstr "Всего присутствующих"
+
+#: views/view_6_attendance__2_display.class.php:523
+msgid "Present"
+msgstr "Присутствующие"
+
+#: views/view_6_attendance__2_display.class.php:539
+msgid "Total Absent"
+msgstr "Всего отсутствующих"
+
+#: views/view_6_attendance__2_display.class.php:539
+msgid "Absent"
+msgstr "Отутствующие"
+
+#: views/view_6_attendance__2_display.class.php:558
+msgid "Extras"
+msgstr "Дополнения"
+
+#: views/view_6_attendance__3_statistics.class.php:14
+msgid "Attendance Statistics"
+msgstr "Статистика посещаемости"
+
+#: views/view_6_attendance__3_statistics.class.php:42
+msgid "Show the attendance statistics for persons of each (current) status"
+msgstr "Показать статистику посещаемости для людей в каждом (текущем) статусе"
+
+#: views/view_6_attendance__3_statistics.class.php:43
+msgid "between"
+msgstr "между"
+
+#: views/view_6_attendance__3_statistics.class.php:44
+msgid "and"
+msgstr "и"
+
+#: views/view_6_attendance__3_statistics.class.php:46
+msgid ""
+"Note: Any weeks where a person attendance is left blank (neither present nor "
+"absent) are ignored when calculating attendance percentages."
+msgstr ""
+"Внимание: Недели, в которые посещаемость человека осталась неотмеченной (как "
+"\"присутствие\" или \"отсутствие\") не будут учтены при вычислении процента "
+"посещаемости."
+
+#: views/view_6_attendance__3_statistics.class.php:124
+msgid "Segment"
+msgstr "Сегмент"
+
+#: views/view_6_attendance__3_statistics.class.php:125
+msgid "\"Percentage of dates marked present rather than absent\""
+msgstr "\"Процент дней, отмеченных присутствием, а не отсутствием\""
+
+#: views/view_6_attendance__3_statistics.class.php:125
+msgid "Rate"
+msgstr "Частота"
+
+#: views/view_6_attendance__3_statistics.class.php:126
+msgid "\"Average number marked present per date\""
+msgstr "\"Среднее число за день, отмеченных как присутствующие\""
+
+#: views/view_6_attendance__3_statistics.class.php:126
+msgid "Avg&nbsp;P"
+msgstr "Сред&nbsp;П"
+
+#: views/view_6_attendance__3_statistics.class.php:127
+msgid "Average number marked absent per date\""
+msgstr "\"Среднее число за день, отмеченных как отсутствующие\""
+
+#: views/view_6_attendance__3_statistics.class.php:127
+msgid "Avg&nbsp;A"
+msgstr "Сред&nbsp;О"
+
+#: views/view_6_attendance__3_statistics.class.php:167
+msgid "Overall"
+msgstr "Всего"
+
+#: views/view_6_attendance__3_statistics.class.php:174
+msgid "Avg&nbsp;Headcount"
+msgstr "Сред&nbsp;Численность"
+
+#: views/view_7_rosters__2_edit_roster_assignments.class.php:24
+msgid "Edit Roster Assignments for \""
+msgstr "Изменить назначения обязанностей для \""
+
+#: views/view_7_rosters__2_edit_roster_assignments.class.php:26
+msgid "Edit Roster Assignments"
+msgstr "Изменить назначения обязанностей"
+
+#: views/view_7_rosters__3_define_roster_roles.class.php:17
+msgid "Define Roster Roles"
+msgstr "Определить роли по расписанию"
+
+#: views/view_7_rosters__3_define_roster_roles.class.php:26
+msgid ""
+"A roster role represents an activity somebody does which is organised by a "
+"roster.\n"
+"\t\t\t\tRoster roles are often congregation-specific; for example each "
+"congregation probably has its own separate \"bible reader\" role.\n"
+"\t\t\t\tOther roles may be congregation-independent, such as cleaning or "
+"gardening."
+msgstr ""
+"Роль по расписанию представляет собой обязанность, которую кто-то выполняет "
+"согласно списку обязанностей.\n"
+"\t\t\t\tРоли часто зависят от конгрегации, например, каждая конгрегация "
+"вероятно имеет свою отдельную роль \"ответственный за объявления\"\n"
+"\t\t\t\tДругие роли могут был независимыми от конгрегации, например уборка."
+
+#: views/view_7_rosters__3_define_roster_roles.class.php:31
+msgid "Add Role"
+msgstr "Добавить роль"
+
+#: views/view_7_rosters__3_define_roster_roles.class.php:44
+msgid "No roles have been created yet"
+msgstr "Ни одной роли еще не создано"
+
+#: views/view_7_rosters__4_define_roster_views.class.php:24
+msgid "Define Roster Views"
+msgstr "Определить списки обязанностей"
+
+#: views/view_7_rosters__4_define_roster_views.class.php:34
+msgid ""
+"A roster view is a collection of roster roles, used when editing or "
+"displaying roster assignments.  A roster role can be included in several "
+"roster views.  You might like to create views such as \"morning congregation"
+"\" or \"all preachers\"."
+msgstr ""
+"Список назначений - это набор ролей по расписанию, который используется для "
+"редактирования или отображение назначений обязанностей. Роль по расписанию "
+"может быть включена в несколько списков назначений. Мы можете создать такие "
+"списки как \"утреннее собрание\" или \"молитвенное собрание\"."
+
+#: views/view_8_services.class.php:153
+msgid "Run Sheet"
+msgstr "Лист проведения"
+
+#: views/view_8_services.class.php:202
+msgid "Copy from previous"
+msgstr "Скопировать из предыдущего"
+
+#: views/view_8_services__1_list_all.class.php:255
+msgid ""
+"No services have been saved in the specified time period.  Click the \"edit"
+"\" button above to create some services."
+msgstr ""
+"Ни одного собрания не было записано в указанный период времени. Нажмите "
+"кнопку Правка вверху, чтобы добавить собрания."
+
+#: views/view_8_services__1_list_all.class.php:263
+msgid "Click a service below to edit its run sheet"
+msgstr "Нажмите на собрание внизу, чтобы отредактировать лист его проведения"
+
+#: views/view_8_services__1_list_all.class.php:265
+msgid "Click a service below to view its run sheet"
+msgstr "Нажмите на собрание внизу, чтобы просмотреть лист его проведения"
+
+#: views/view_8_services__1_list_all.class.php:268
+msgid ""
+"or click the \"edit\" button above to edit the service schedule including "
+"bible readings and titles."
+msgstr ""
+"или нажмите кнопку Правка вверху, чтобы изменить расписание собрания, "
+"включая заголовки и библейские тексты."
+
+#: views/view_8_services__1_list_all.class.php:339
+msgid "Add some templates to expand or populate"
+msgstr "Добавьте несколько шаблонов, чтобы раскрыть или опубликовать"
+
+#: views/view_8_services__1_list_all.class.php:448
+msgid ""
+"Use the fields below to enter a topic, format and/or Bible readings for each "
+"service. For each Bible reading, use the checkboxes to indicate if it is to "
+"be read, to be preached on, or both."
+msgstr ""
+"Используйте поля внизу, чтобы ввести тему, формат и/или библейские отрывки "
+"для каждого собрания. Для каждого библейского отрывка используйте флажки, "
+"чтобы отметить, что их нужно прочитать, проповедовать по ним или и то, и "
+"другое."
+
+msgid "Home"
+msgstr "Главная"
+
+msgid "Families"
+msgstr "Семьи"
+
+msgid "Persons"
+msgstr "Люди"
+
+msgid "Services"
+msgstr "Собрания"
+
+msgid "Documents"
+msgstr "Документы"
+
+msgid "Admin"
+msgstr "Админ"
+
+msgid "List All"
+msgstr "Полный список"
+
+msgid "Search"
+msgstr "Поиск"
+
+msgid "Reports"
+msgstr "Отчеты"
+
+msgid "Add"
+msgstr "Добавить"
+
+msgid "Statistics"
+msgstr "Статистика"
+
+msgid "For Immediate Action"
+msgstr "Для немедленного действия"
+
+msgid "For Future Action"
+msgstr "Для будущих действий"
+
+msgid "Manage Categories"
+msgstr "Управление категориями"
+
+msgid "Record"
+msgstr "Записать"
+
+msgid "Display"
+msgstr "Показать"
+
+msgid "Display Roster Assignments"
+msgstr "Показать назначения обязанностей"
+
+msgid "Component Library"
+msgstr "Компоненты служения"
+
+msgid "Add Person Group"
+msgstr "Добавить группу людей"

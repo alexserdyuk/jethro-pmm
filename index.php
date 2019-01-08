@@ -27,6 +27,14 @@
 define('JETHRO_ROOT', dirname(__FILE__));
 define('TEMPLATE_DIR', JETHRO_ROOT.'/templates/');
 
+$locale="ru_RU.UTF-8";
+$domain = 'messages';
+
+putenv("LC_ALL=$locale");
+setlocale(LC_ALL, $locale);
+bindtextdomain($domain, JETHRO_ROOT."/locale");
+textdomain($domain);
+
 // Load configuration
 if (!is_readable(JETHRO_ROOT.'/conf.php')) {
 	trigger_error('Jethro configuration file not found.  You need to copy conf.php.sample to conf.php and edit it before Jethro can run', E_USER_ERROR);

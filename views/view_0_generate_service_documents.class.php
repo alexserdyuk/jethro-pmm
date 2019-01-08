@@ -256,7 +256,7 @@ class View__Generate_Service_Documents extends View
 				</tbody>
 			</table>
 			<input type="submit" class="btn" value="Go" />
-			<a href="<?php echo build_url(Array()); ?>" class="btn">Cancel</a>
+			<a href="<?php echo build_url(Array()); ?>" class="btn"><?php echo _('Cancel') ?></a>
 			</form>
 			<?php
 	}

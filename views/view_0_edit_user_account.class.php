@@ -68,7 +68,7 @@ class View__Edit_User_Account extends View
 				<?php $this->_staff_member->printForm(); ?>
 				<div class="controls">
 					<button type="submit"  class="btn"><?php echo _('Update Account')?></button>
-					<a href="?view=persons&personid=<?php echo $this->_staff_member->id; ?>" class="btn">Cancel</a>
+					<a href="?view=persons&personid=<?php echo $this->_staff_member->id; ?>" class="btn"><?php echo _('Cancel') ?></a>
 				</div>
 			</form>
 			<?php

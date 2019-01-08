@@ -24,7 +24,7 @@ class View__Change_Password extends View
 			<br />
 			
 			<input type="submit" class="btn" name="set-password" value="Save" />
-			<a class="btn btn-lnk" href="?">Cancel</a>
+			<a class="btn btn-lnk" href="?"><?php echo _('Cancel') ?></a>
 		</form>
 		<?php
 

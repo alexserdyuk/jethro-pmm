@@ -184,8 +184,8 @@ class View_Documents extends View
 						Folder name: <input type="text" name="renamefolder" value="<?php echo ents(basename($this->getPrintedDir())); ?>" />
 					</div>
 					<div class="modal-footer">
-						<button type="submit" class="btn" accesskey="s">Go</button>
-						<button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+						<button type="submit" class="btn" accesskey="s"><?php echo _('Go') ?></button>
+						<button class="btn" data-dismiss="modal" aria-hidden="true"><?php echo _('Cancel') ?></button>
 					</div>
 				</form>
 			</div>
@@ -199,8 +199,8 @@ class View_Documents extends View
 						Folder name: <input type="text" name="newfolder" />
 					</div>
 					<div class="modal-footer">
-						<button type="submit" class="btn" accesskey="s">Go</button>
-						<button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+						<button type="submit" class="btn" accesskey="s"><?php echo _('Go') ?></button>
+						<button class="btn" data-dismiss="modal" aria-hidden="true"><?php echo _('Cancel') ?></button>
 					</div>
 				</form>
 			</div>
@@ -215,8 +215,8 @@ class View_Documents extends View
 						<p class="upload-progress hide">Uploading...<br /><img src="resources/img/progress.gif" /></p>
 					</div>
 					<div class="modal-footer">
-						<button type="submit" class="btn" accesskey="s">Go</button>
-						<button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+						<button type="submit" class="btn" accesskey="s"><?php echo _('Go') ?></button>
+						<button class="btn" data-dismiss="modal" aria-hidden="true"><?php echo _('Cancel') ?></button>
 					</div>
 				</form>
 			</div>
@@ -231,8 +231,8 @@ class View_Documents extends View
 						<p class="upload-progress hide">Uploading...<br /><img src="resources/img/progress.gif" /></p>
 					</div>
 					<div class="modal-footer">
-						<button type="submit" class="btn" accesskey="s">Go</button>
-						<button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+						<button type="submit" class="btn" accesskey="s"><?php echo _('Go') ?></button>
+						<button class="btn" data-dismiss="modal" aria-hidden="true"><?php echo _('Cancel') ?></button>
 					</div>
 				</form>
 			</div>
@@ -246,8 +246,8 @@ class View_Documents extends View
 						<input type="text" class="select-basename" id="rename-file" name="renamefile[X]" value="" />
 					</div>
 					<div class="modal-footer">
-						<button type="submit" class="btn" accesskey="s">Go</button>
-						<button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+						<button type="submit" class="btn" accesskey="s"><?php echo _('Go') ?></button>
+						<button class="btn" data-dismiss="modal" aria-hidden="true"><?php echo _('Cancel') ?></button>
 					</div>
 				</form>
 			</div>
@@ -264,8 +264,8 @@ class View_Documents extends View
 						</select>
 					</div>
 					<div class="modal-footer">
-						<button type="submit" class="btn" accesskey="s">Go</button>
-						<button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+						<button type="submit" class="btn" accesskey="s"><?php echo _('Go') ?></button>
+						<button class="btn" data-dismiss="modal" aria-hidden="true"><?php echo _('Cancel') ?></button>
 					</div>
 				</form>
 			</div>
@@ -356,7 +356,7 @@ class View_Documents extends View
 		?>
 		<p class="align-right">
 			<input type="submit" class="btn" value="Save" />
-			<a class="btn" href="<?php echo build_url(Array('editfile' => NULL)); ?>">Cancel</a>
+			<a class="btn" href="<?php echo build_url(Array('editfile' => NULL)); ?>"><?php echo _('Cancel') ?></a>
 		</p>
 		</form>
 		<?php

@@ -75,7 +75,7 @@ class View__Edit_Attendance extends View
 				</tbody>
 			</table>
 			<input type="submit" class="btn" value="Save" />
-			<a class="btn" href="?view=persons&personid=<?php echo $this->_person->id; ?>#attendance">Cancel</a>
+			<a class="btn" href="?view=persons&personid=<?php echo $this->_person->id; ?>#attendance"><?php echo _('Cancel') ?></a>
 		</form>
 		<?php
 	}

@@ -340,7 +340,7 @@ function print_widget($name, $params, $value)
 					if ($showEmpty) {
 						$emptyText = array_get($params, 'empty_text');
 						if (!$emptyText) {
-							$emptyText = array_get($params, 'allow_empty') ? '(None)' : '--Choose--';
+							$emptyText = array_get($params, 'allow_empty') ? _('(None)') : '--Choose--';
 						}
 						?>
 						<option value=""><?php echo $emptyText; ?></option>

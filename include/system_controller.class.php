@@ -154,7 +154,7 @@ class System_Controller
 				// deliberately - only leaf nodes can be navigated to directly
 				?>
 				<li class="<?php echo $class; ?>">
-					<a href="?view=<?php echo $name; ?>" ><?php echo ucwords(str_replace('_', ' ', $name)); ?></a>
+					<a href="?view=<?php echo $name; ?>" ><?php echo gettext(ucwords(str_replace('_', ' ', $name))); ?></a>
 				</li>
 				<?php
 			} else {

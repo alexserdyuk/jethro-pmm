@@ -53,7 +53,7 @@ class View_Home extends View
 			?>
 			<div class="member-homepage-box">
 			<h3>
-				<a class="pull-right" href="?view=_edit_ical"><small><i class="icon-calendar"></i>Subscribe</small></a>
+				<a class="pull-right" href="?view=_edit_ical"><small><i class="icon-calendar"></i><?php echo _('Subscribe');?></small></a>
 				My Roster Allocations &nbsp;
 			</h3>
 			<?php
@@ -82,7 +82,7 @@ class View_Home extends View
 				<?php
 			} else {
 				?>
-				<p><i>None</i></p>
+				<p><i><?php echo _('None');?></i></p>
 				<?php
 			}
 			?>

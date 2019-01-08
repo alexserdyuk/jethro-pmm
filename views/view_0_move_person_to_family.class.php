@@ -130,8 +130,8 @@ class View__Move_Person_To_Family extends View
 					</div>
 				</div>
 				<div class="controls">
-					<button type="submit" class="btn">Go</button>
-					<a class="btn" href="?view=persons&personid=<?php echo $this->_person->id; ?>">Cancel</a>
+					<button type="submit" class="btn"><?php echo _('Go') ?></button>
+					<a class="btn" href="?view=persons&personid=<?php echo $this->_person->id; ?>"><?php echo _('Cancel') ?></a>
 				</div>
 			</form>
 			<?php

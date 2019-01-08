@@ -57,7 +57,7 @@ class Person_Group_Category extends db_object
 		$all_cats = $GLOBALS['system']->getDBObjectData('person_group_category', $params, 'AND', 'parent_category ASC');
 		?>
 		<select name="<?php echo $fieldname; ?>">
-		<option value="0">(None)</option>
+		<option value="0"><?php echo _('(None)') ?></option>
 		<?php
 		self::_printChooserOptions($all_cats, $value);
 		?>

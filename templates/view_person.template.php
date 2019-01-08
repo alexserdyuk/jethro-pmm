@@ -17,8 +17,8 @@ if ($plan_chooser) {
 				<p><?php echo _('Reference date for plans: ')?><?php print_widget('plan_reference_date', Array('type' => 'date'), NULL); ?></p>
 			</div>
 			<div class="modal-footer">
-				<button type="submit" class="btn" accesskey="s">Go</button>
-				<button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+				<button type="submit" class="btn" accesskey="s"><?php echo _('Go') ?></button>
+				<button class="btn" data-dismiss="modal" aria-hidden="true"><?php echo _('Cancel') ?></button>
 			</div>
 		</form>
 	</div>
@@ -53,7 +53,7 @@ if ($GLOBALS['user_system']->havePerm(PERM_EDITPERSON)) {
 			</div>
 			<div class="modal-footer">
 				<input type="submit" class="btn" value="Go" accesskey="s" onclick="if (!$('[name=groupid]').val()) { alert('<?php echo _('Choose a group first'); ?>'); return false; }" />
-				<button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+				<button class="btn" data-dismiss="modal" aria-hidden="true"><?php echo _('Cancel') ?></button>
 			</div>
 		</form>
 	</div>

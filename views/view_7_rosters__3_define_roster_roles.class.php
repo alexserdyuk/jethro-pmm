@@ -14,7 +14,7 @@ class View_Rosters__Define_Roster_Roles extends View
 
 	function getTitle()
 	{
-		return 'Define Roster Roles';
+		return _('Define Roster Roles');
 	}
 
 	

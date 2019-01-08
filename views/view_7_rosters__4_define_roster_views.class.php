@@ -21,7 +21,7 @@ class View_Rosters__Define_Roster_Views extends View
 
 	function getTitle()
 	{
-		return 'Define Roster Views';
+		return _('Define Roster Views');
 	}
 
 	
