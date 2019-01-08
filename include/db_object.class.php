@@ -87,6 +87,7 @@ class db_object
 					break;
 				case 'html':
 					$type = 'text';
+					$default = FALSE; // text columns cannot have a default
 					break;
 				case 'text':
 					if (array_get($details, 'height', 1) != 1) {
@@ -398,7 +399,7 @@ class db_object
 		}
 		return $changes;
 	}
-	
+
 	public function reset()
 	{
 		$this->values = $this->_old_values = Array();
@@ -1029,7 +1030,7 @@ class db_object
 		return null;
 	}
 
-	public function fromCsvRow($row)
+	public function fromCsvRow($row, $overwriteExistingValues=TRUE)
 	{
 		foreach ($this->fields as $fieldname => $field) {
 			if (isset($row[$fieldname])) {
@@ -1047,7 +1048,12 @@ class db_object
 						$val = array_get($field, 'default', key($field['options']));
 					}
 				}
-				if ($val !== '') $this->setValue($fieldname, $val);
+				if (($overwriteExistingValues && ($val !== ''))
+						|| ($this->getValue($fieldname) == '')
+						|| !$this->id
+				) {
+					$this->setValue($fieldname, $val);
+				}
 			}
 		}
 		$this->validateFields();
