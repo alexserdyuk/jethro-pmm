@@ -573,7 +573,7 @@ class service extends db_object
 
 					// only save personnel if it's been changed from the component's default
 					// so that if the roster changes, the run sheet will auto updated.
-					if ($item['personnel'] == $comps[$item['componentid']]['personnel']) {
+					if ($item['personnel'] == $this->replaceKeywords($comps[$item['componentid']]['personnel'])) {
 						$item['personnel'] = '';
 					}
 				} else {
@@ -614,7 +614,7 @@ class service extends db_object
 					'.($withContent ? 'sc.content_html, sc.credits, ' : '').'
 					IFNULL(IF(LENGTH(sc.runsheet_title_format) = 0, scc.runsheet_title_format, sc.runsheet_title_format), "%title%") AS runsheet_title_format,
 					IFNULL(IF(LENGTH(sc.handout_title_format) = 0, scc.handout_title_format, sc.handout_title_format), "%title%") AS handout_title_format,
-					IF(LENGTH(si.personnel) = 0, sc.personnel, si.personnel) AS personnel,
+					IF(LENGTH(si.personnel) > 0, si.personnel, IF(LENGTH(sc.personnel) > 0, sc.personnel, scc.personnel_default)) as personnel,
 					sc.categoryid
 				FROM service_item si
 				LEFT JOIN service_component sc ON si.componentid = sc.id
@@ -754,6 +754,14 @@ class service extends db_object
 			<div id="service-personnel" class="span12 clearfix">
 				<h3>
 					<span class="pull-right"><small>
+					<?php
+					if (count($rosterViews) == 1) {
+						?>
+						<a href="?view=rosters__edit_roster_assignments&viewid=<?php echo key($rosterViews); ?>&start_date=<?php echo $this->getValue('date'); ?>&end_date=<?php echo $this->getValue('date'); ?>"><i class="icon-wrench"></i>Edit</a>
+						&nbsp;
+						<?php
+					}
+					?>
 						<a href="<?php echo $email_href; ?>"><i class="icon-email">@</i>Email</a>
 					<?php
 					if (SMS_Sender::canSend()) {
